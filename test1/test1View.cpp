@@ -12,6 +12,7 @@
 
 #include "test1Doc.h"
 #include "test1View.h"
+#include <string>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -64,6 +65,7 @@ Ctest1View::Ctest1View() noexcept
 	transform[3].SetMatrix(brick[4].P, 4);
 	transform[3].Scale(0.5, 0.25);
 
+
 }
 
 Ctest1View::~Ctest1View()
@@ -79,7 +81,6 @@ BOOL Ctest1View::PreCreateWindow(CREATESTRUCT& cs)
 }
 
 // Ctest1View 绘图
-
 void Ctest1View::OnDraw(CDC* pDC)
 {
 	Ctest1Doc* pDoc = GetDocument();
@@ -102,6 +103,18 @@ void Ctest1View::OnDraw(CDC* pDC)
 	{
 		brick[i].Draw(pDC);
 	}
+	double a{ 1 }, b{ 0 };
+	double* c, * d;
+	*c = 12;
+	CString str = CString ("size of double *:") + CString(std::to_string(sizeof(c)).c_str());
+	{
+		char* p;
+		*p = 'd';
+		str += CString(std::to_string(sizeof(p)).c_str());
+		str += CString(std::to_string(sizeof(*p)).c_str());
+		
+	}
+	pDC->TextOut(50, 42, str);
 
 }
 

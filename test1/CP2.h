@@ -17,6 +17,6 @@ public:
 	CP2& operator+=(double num);
 	CP2& operator-=(double num);
 public:
-	double x, y,w;
+	double x, y, w;
 };
 
