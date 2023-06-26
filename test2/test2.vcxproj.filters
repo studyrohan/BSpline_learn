@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test1.h">
+    <ClInclude Include="test2.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -30,10 +30,10 @@
     <ClInclude Include="ChildFrm.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test1Doc.h">
+    <ClInclude Include="test2Doc.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test1View.h">
+    <ClInclude Include="test2View.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -57,24 +57,9 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Cbezier.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CTransform2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CP2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CBrick.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CCubicBezierCurve.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp">
+    <ClCompile Include="test2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
@@ -83,10 +68,10 @@
     <ClCompile Include="ChildFrm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test1Doc.cpp">
+    <ClCompile Include="test2Doc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test1View.cpp">
+    <ClCompile Include="test2View.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FileView.cpp">
@@ -107,24 +92,9 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Cbezier.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CTransform2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CP2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CBrick.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CCubicBezierCurve.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="test1.rc">
+    <ResourceCompile Include="test2.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -192,10 +162,10 @@
     <Image Include="res\userimages.bmp">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="res\test1Doc.ico">
+    <Image Include="res\test2Doc.ico">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="res\test1.ico">
+    <Image Include="res\test2.ico">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
@@ -204,12 +174,9 @@
     <Image Include="res\Toolbar256.bmp">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="res\toolbar1.bmp">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\test1.rc2">
+    <None Include="res\test2.rc2">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>

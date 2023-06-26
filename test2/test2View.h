@@ -1,32 +1,22 @@
 ﻿
-// test1View.h: Ctest1View 类的接口
+// test2View.h: Ctest2View 类的接口
 //
 
 #pragma once
-#include "Cbezier.h"
-#include "CBrick.h"
-#include "CTransform2.h"
-#include "CCubicBezierCurve.h"
 
 
-class Ctest1View : public CView
+class Ctest2View : public CView
 {
 protected: // 仅从序列化创建
-	Ctest1View() noexcept;
-	DECLARE_DYNCREATE(Ctest1View)
+	Ctest2View() noexcept;
+	DECLARE_DYNCREATE(Ctest2View)
 
 // 特性
 public:
-	Ctest1Doc* GetDocument() const;
+	Ctest2Doc* GetDocument() const;
 
 // 操作
 public:
-
-private:
-	Cbezier bezier;
-	CBrick brick[5];
-	CTransform2 transform[5];
-	CCubicBezierCurve cubicBezierCurve;
 
 // 重写
 public:
@@ -39,7 +29,7 @@ protected:
 
 // 实现
 public:
-	virtual ~Ctest1View();
+	virtual ~Ctest2View();
 #ifdef _DEBUG
 	virtual void AssertValid() const;
 	virtual void Dump(CDumpContext& dc) const;
@@ -53,13 +43,10 @@ protected:
 	afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
 	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
 	DECLARE_MESSAGE_MAP()
-public:
-	afx_msg void OnTimer(UINT_PTR nIDEvent);
-	afx_msg void OnGraphAnimation();
 };
 
-#ifndef _DEBUG  // test1View.cpp 中的调试版本
-inline Ctest1Doc* Ctest1View::GetDocument() const
-   { return reinterpret_cast<Ctest1Doc*>(m_pDocument); }
+#ifndef _DEBUG  // test2View.cpp 中的调试版本
+inline Ctest2Doc* Ctest2View::GetDocument() const
+   { return reinterpret_cast<Ctest2Doc*>(m_pDocument); }
 #endif
 

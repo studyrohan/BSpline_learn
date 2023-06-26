@@ -30,6 +30,8 @@ BEGIN_MESSAGE_MAP(Ctest1View, CView)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &Ctest1View::OnFilePrintPreview)
 	ON_WM_CONTEXTMENU()
 	ON_WM_RBUTTONUP()
+	ON_WM_TIMER()
+	ON_COMMAND(ID_GRAPH_ANIMATION, &Ctest1View::OnGraphAnimation)
 END_MESSAGE_MAP()
 
 // Ctest1View 构造/析构
@@ -66,6 +68,21 @@ Ctest1View::Ctest1View() noexcept
 	transform[3].Scale(0.5, 0.25);
 
 
+	
+	{
+		CP2 pnt[4];
+		pnt[0].x = -400;
+		pnt[0].y = -200;
+		pnt[1].x = -200;
+		pnt[1].y = 100;
+		pnt[2].x = 200;
+		pnt[2].y = 200;
+		pnt[3].x = 300;
+		pnt[3].y = -200;
+		cubicBezierCurve.ReadPoint(pnt);
+	}
+
+
 }
 
 Ctest1View::~Ctest1View()
@@ -96,26 +113,20 @@ void Ctest1View::OnDraw(CDC* pDC)
 	pDC->SetWindowExt(rect.Width(), rect.Height());
 	pDC->SetViewportExt(rect.Width(), -rect.Height());
 	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
-	bezier.Draw(pDC);
-	bezier.DrawControlPolygon(pDC);
+	//bezier.Draw(pDC);
+	//bezier.DrawControlPolygon(pDC);
 
 	for (int i = 0; i < 5; i++)
 	{
 		brick[i].Draw(pDC);
 	}
 	double a{ 1 }, b{ 0 };
-	double* c, * d;
-	*c = 12;
+	double* c;
 	CString str = CString ("size of double *:") + CString(std::to_string(sizeof(c)).c_str());
-	{
-		char* p;
-		*p = 'd';
-		str += CString(std::to_string(sizeof(p)).c_str());
-		str += CString(std::to_string(sizeof(*p)).c_str());
-		
-	}
 	pDC->TextOut(50, 42, str);
 
+	cubicBezierCurve.Draw(pDC);
+	cubicBezierCurve.DrawControlPolygon(pDC);
 }
 
 
@@ -181,3 +192,17 @@ Ctest1Doc* Ctest1View::GetDocument() const // 非调试版本是内联的
 
 
 // Ctest1View 消息处理程序
+
+
+void Ctest1View::OnTimer(UINT_PTR nIDEvent)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	CView::OnTimer(nIDEvent);
+}
+
+
+void Ctest1View::OnGraphAnimation()
+{
+	// TODO: 在此添加命令处理程序代码
+}
