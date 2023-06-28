@@ -184,8 +184,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cbezier.h" />
+    <ClInclude Include="CCube.h" />
+    <ClInclude Include="CFacet.h" />
     <ClInclude Include="ChildFrm.h" />
     <ClInclude Include="ClassView.h" />
+    <ClInclude Include="CP2.h" />
+    <ClInclude Include="CProjection.h" />
+    <ClInclude Include="CTransform3.h" />
     <ClInclude Include="FileView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
@@ -201,8 +206,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cbezier.cpp" />
+    <ClCompile Include="CCube.cpp" />
+    <ClCompile Include="CFacet.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
     <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="CP2.cpp" />
+    <ClCompile Include="CProjection.cpp" />
+    <ClCompile Include="CTransform3.cpp" />
     <ClCompile Include="FileView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="OutputWnd.cpp" />

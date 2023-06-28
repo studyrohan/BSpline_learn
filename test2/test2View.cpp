@@ -36,6 +36,15 @@ END_MESSAGE_MAP()
 Ctest2View::Ctest2View() noexcept
 {
 	// TODO: 在此处添加构造代码
+	alpha = 0, beta = 0;
+	bplay = false;
+	cube.ReadVertex();
+	cube.ReadFacet();
+
+	transform.SetMatrix(cube.GetPtArrayName(), 8);
+	int nEdge = 500;
+	transform.Scale(nEdge);
+	transform.Translate(-nEdge / 2, -nEdge / 2, -nEdge / 2);
 
 }
 
@@ -53,13 +62,21 @@ BOOL Ctest2View::PreCreateWindow(CREATESTRUCT& cs)
 
 // Ctest2View 绘图
 
-void Ctest2View::OnDraw(CDC* /*pDC*/)
+void Ctest2View::OnDraw(CDC* pDC)
 {
 	Ctest2Doc* pDoc = GetDocument();
 	ASSERT_VALID(pDoc);
 	if (!pDoc)
 		return;
 
+	CRect rect;
+	GetClientRect(&rect);
+	pDC->SetMapMode(MM_ANISOTROPIC);
+	pDC->SetWindowExt(rect.Width(), rect.Height());
+	pDC->SetViewportExt(rect.Width(), -rect.Height());
+	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
+
+	cube.Draw(pDC);
 	// TODO: 在此处为本机数据添加绘制代码
 }
 

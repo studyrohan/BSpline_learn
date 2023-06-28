@@ -60,6 +60,21 @@
     <ClInclude Include="Cbezier.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CP2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFacet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test2.cpp">
@@ -96,6 +111,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Cbezier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CP2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFacet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

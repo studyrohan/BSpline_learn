@@ -3,6 +3,8 @@
 //
 
 #pragma once
+#include "CCube.h"
+#include "CTransform3.h"
 
 
 class Ctest2View : public CView
@@ -17,6 +19,13 @@ public:
 
 // 操作
 public:
+
+private:
+	CCube cube;
+	double alpha;
+	double beta;
+	bool bplay;
+	CTransform3 transform;
 
 // 重写
 public:
