@@ -1,0 +1,10 @@
+
+*.exe
+*.obj
+
+/x64
+test1/x64
+test2/x64
+/.vs
+
+

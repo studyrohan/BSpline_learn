@@ -72,6 +72,9 @@
     <ClInclude Include="CCubicBezierCurve.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test1.cpp">
@@ -120,6 +123,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CCubicBezierCurve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

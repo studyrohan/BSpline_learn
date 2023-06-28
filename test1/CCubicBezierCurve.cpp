@@ -46,8 +46,8 @@ void CCubicBezierCurve::Draw(CDC* pDC)
 
 		//直接使用博尔斯特基函数
 		double Bern03 = (1 - t) * (1 - t) * (1 - t);
-		double Bern12 = (1 - t) * (1 - t) * t;
-		double Bern21 = (1 - t) * t * t;
+		double Bern12 = 3*(1 - t) * (1 - t) * t;
+		double Bern21 = 3*(1 - t) * t * t;
 		double Bern30 = t * t * t;
 		CP2 pd = p[0]*Bern03+p[1]*Bern12+p[2]*Bern21+p[3]*Bern30;
 		pDC->LineTo(CPoint{ ROUND(pd.x),ROUND(pd.y) });

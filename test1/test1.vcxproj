@@ -190,6 +190,7 @@
     <ClInclude Include="ClassView.h" />
     <ClInclude Include="CP2.h" />
     <ClInclude Include="CTransform2.h" />
+    <ClInclude Include="Ellipse.h" />
     <ClInclude Include="FileView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
@@ -211,6 +212,7 @@
     <ClCompile Include="ClassView.cpp" />
     <ClCompile Include="CP2.cpp" />
     <ClCompile Include="CTransform2.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
     <ClCompile Include="FileView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="OutputWnd.cpp" />

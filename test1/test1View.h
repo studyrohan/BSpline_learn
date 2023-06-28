@@ -7,6 +7,7 @@
 #include "CBrick.h"
 #include "CTransform2.h"
 #include "CCubicBezierCurve.h"
+#include "Ellipse.h"
 
 
 class Ctest1View : public CView
@@ -21,6 +22,10 @@ public:
 
 // 操作
 public:
+	void DoubleBuffer(CDC* pDC);//双缓冲
+	void DrawObject(CDC* pDC);
+
+
 
 private:
 	Cbezier bezier;
@@ -28,6 +33,10 @@ private:
 	CTransform2 transform[5];
 	CCubicBezierCurve cubicBezierCurve;
 
+protected:
+	CEllipse ellipse;
+	CTransform2 transform1;
+	bool bPlay;
 // 重写
 public:
 	virtual void OnDraw(CDC* pDC);  // 重写以绘制该视图

@@ -82,7 +82,14 @@ Ctest1View::Ctest1View() noexcept
 		cubicBezierCurve.ReadPoint(pnt);
 	}
 
-
+	{
+		bPlay = false;
+		
+		ellipse.ReadPoint();
+		transform1.SetMatrix(ellipse.p, 12);
+		int a = 200, b = 100;
+		transform1.Scale(a, b);
+	}
 }
 
 Ctest1View::~Ctest1View()
@@ -127,6 +134,8 @@ void Ctest1View::OnDraw(CDC* pDC)
 
 	cubicBezierCurve.Draw(pDC);
 	cubicBezierCurve.DrawControlPolygon(pDC);
+
+	DoubleBuffer(pDC);
 }
 
 
@@ -188,6 +197,43 @@ Ctest1Doc* Ctest1View::GetDocument() const // 非调试版本是内联的
 	ASSERT(m_pDocument->IsKindOf(RUNTIME_CLASS(Ctest1Doc)));
 	return (Ctest1Doc*)m_pDocument;
 }
+
+void Ctest1View::DoubleBuffer(CDC* pDC)
+{
+	CRect rect;
+	GetClientRect(&rect);
+	pDC->SetMapMode(MM_ANISOTROPIC);
+	pDC->SetWindowExt(rect.Width(), rect.Height());
+	pDC->SetViewportExt(rect.Width(), -rect.Height());
+	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
+	CDC memDC;//声明内存DC
+	memDC.CreateCompatibleDC(pDC);//创建一个与显示DC兼容的内存DC
+	CBitmap newBitMap, *pOldBitMap;//定义一个位图，保证每一个像素的颜色
+	newBitMap.CreateCompatibleBitmap(pDC, rect.Width(), rect.Height());//创建兼容内存位图，黑色的
+	pOldBitMap = memDC.SelectObject(&newBitMap);//将兼容位图选入内存区
+	memDC.FillSolidRect(rect, pDC->GetBkColor());//设置客户区背景色
+	rect.OffsetRect(-rect.Width() / 2, -rect.Height() / 2);
+
+	memDC.SetMapMode(MM_ANISOTROPIC);
+	memDC.SetWindowExt(rect.Width(), rect.Height());
+	memDC.SetViewportExt(rect.Width(), -rect.Height());
+	memDC.SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
+	DrawObject(&memDC);//向内存缓冲区中绘制图形
+	pDC->BitBlt(rect.left, rect.top, rect.Width(), rect.Height(), &memDC, -rect.Width() / 2, -rect.Height() / 2, SRCCOPY);
+	memDC.SelectObject(pOldBitMap);
+	newBitMap.DeleteObject();
+	memDC.DeleteDC();
+}
+
+void Ctest1View::DrawObject(CDC* pDC)
+{
+	pDC->MoveTo(-10, 0);
+	pDC->LineTo(10, 0);
+	pDC->MoveTo(0, -10);
+	pDC->LineTo(0, 10);
+	ellipse.Draw(pDC);
+}
+
 #endif //_DEBUG
 
 
@@ -197,7 +243,9 @@ Ctest1Doc* Ctest1View::GetDocument() const // 非调试版本是内联的
 void Ctest1View::OnTimer(UINT_PTR nIDEvent)
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
-
+	double beta = 5;
+	transform1.Rotate(beta);
+	Invalidate(FALSE);//重新刷新客户区
 	CView::OnTimer(nIDEvent);
 }
 
@@ -205,4 +253,13 @@ void Ctest1View::OnTimer(UINT_PTR nIDEvent)
 void Ctest1View::OnGraphAnimation()
 {
 	// TODO: 在此添加命令处理程序代码
+	bPlay = !bPlay;
+	if (bPlay)
+	{
+		SetTimer(1, 100, NULL);//100毫秒调用一次
+	}
+	else
+	{
+		KillTimer(1);
+	}
 }
