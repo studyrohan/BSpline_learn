@@ -25,6 +25,17 @@ class CP3 :public CP2
 public:
 	CP3(double x, double y, double z);
 	CP3();
+	CP3& operator=(const CP3& P);
+	CP3 operator+(const CP3& P);
+	CP3 operator-(const CP3& P);
+	CP3 operator-(double num);
+	CP3 operator+(double num);
+	CP3 operator*(double num);
+	CP3 operator/(double num);
+	CP3& operator+=(const CP3& P);
+	CP3& operator-=(const CP3& P);
+	CP3& operator+=(double num);
+	CP3& operator-=(double num);
 	double z;
 };
 

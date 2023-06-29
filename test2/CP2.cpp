@@ -109,3 +109,99 @@ CP3::CP3()
 {
 
 }
+
+CP3 CP3::operator-(const CP3& P)
+{
+	CP3 tem;
+	tem.x = this->x - P.x;
+	tem.y = this->y - P.y;
+	tem.z = this->z - P.z;
+	return tem;
+}
+
+CP3 CP3::operator-(double num)
+{
+	CP3 tem;
+	tem.x = this->x - num;
+	tem.y = this->y - num;
+	tem.z = this->z - num;
+	return tem;
+}
+
+CP3 CP3::operator+(const CP3& P)
+{
+	CP3 tem;
+	tem.x = this->x + P.x;
+	tem.y = this->y + P.y;
+	tem.z = this->z + P.z;
+	return tem;
+}
+
+CP3 CP3::operator+(double num)
+{
+	CP3 tem;
+	tem.x = this->x + num;
+	tem.y = this->y + num;
+	tem.z = this->z + num;
+	return tem;
+
+}
+
+CP3 CP3::operator*(double num)
+{
+	CP3 tem;
+	tem.x = this->x *num;
+	tem.y = this->y *num;
+	tem.z = this->z *num;
+	return tem;
+}
+
+CP3 CP3::operator/(double num)
+{
+	CP3 tem;
+	tem.x = this->x / num;
+	tem.y = this->y / num;
+	tem.z = this->z / num;
+	return tem;
+}
+
+CP3& CP3::operator-=(double num)
+{
+	this->x -= num;
+	this->y -= num;
+	this->z -= num;
+	return *this;
+}
+
+CP3& CP3::operator+=(double num)
+{
+	this->x += num;
+	this->y += num;
+	this->z += num;
+	return *this;
+}
+
+CP3& CP3::operator-=(const CP3& P)
+{
+	this->x -= P.x;
+	this->y -= P.y;
+	this->z -= P.z;
+	return *this;
+
+}
+
+CP3& CP3::operator+=(const CP3& P)
+{
+	this->x += P.x;
+	this->y += P.y;
+	this->z += P.z;
+	return *this;
+}
+
+CP3& CP3::operator=(const CP3& P)
+{
+	this->x = P.x;
+	this->y = P.y;
+	this->z = P.z;
+	return *this;
+}
