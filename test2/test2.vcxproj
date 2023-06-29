@@ -184,6 +184,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cbezier.h" />
+    <ClInclude Include="CBiCubicBezierPatch.h" />
     <ClInclude Include="CCube.h" />
     <ClInclude Include="CFacet.h" />
     <ClInclude Include="ChildFrm.h" />
@@ -206,6 +207,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cbezier.cpp" />
+    <ClCompile Include="CBiCubicBezierPatch.cpp" />
     <ClCompile Include="CCube.cpp" />
     <ClCompile Include="CFacet.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
@@ -255,6 +257,7 @@
     <Image Include="res\test2.ico" />
     <Image Include="res\test2Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
     <Image Include="res\Toolbar256.bmp" />
     <Image Include="res\userimages.bmp" />
   </ItemGroup>

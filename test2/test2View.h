@@ -19,7 +19,9 @@ public:
 
 // 操作
 public:
-
+public:
+	void DoubleBuffer(CDC* pDC);//双缓冲
+	void DrawObject(CDC* pDC);
 private:
 	CCube cube;
 	double alpha;
@@ -52,6 +54,10 @@ protected:
 	afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
 	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void On173();
+	afx_msg void OnIdrToolbar1();
 };
 
 #ifndef _DEBUG  // test2View.cpp 中的调试版本

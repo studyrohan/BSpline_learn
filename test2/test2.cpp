@@ -179,6 +179,8 @@ protected:
 // 实现
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
+//	afx_msg void OnIdrToolbar1();
 };
 
 CAboutDlg::CAboutDlg() noexcept : CDialogEx(IDD_ABOUTBOX)
@@ -191,6 +193,7 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 }
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
+//	ON_COMMAND(IDR_TOOLBAR1, &CAboutDlg::OnIdrToolbar1)
 END_MESSAGE_MAP()
 
 // 用于运行对话框的应用程序命令
@@ -226,3 +229,9 @@ void Ctest2App::SaveCustomState()
 
 
 
+
+
+//void CAboutDlg::OnIdrToolbar1()
+//{
+	// TODO: 在此添加命令处理程序代码
+//}

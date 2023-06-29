@@ -29,6 +29,9 @@ BEGIN_MESSAGE_MAP(Ctest2View, CView)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &Ctest2View::OnFilePrintPreview)
 	ON_WM_CONTEXTMENU()
 	ON_WM_RBUTTONUP()
+	ON_WM_TIMER()
+	ON_COMMAND(173, &Ctest2View::On173)
+	ON_COMMAND(IDR_TOOLBAR1, &Ctest2View::OnIdrToolbar1)
 END_MESSAGE_MAP()
 
 // Ctest2View 构造/析构
@@ -69,14 +72,7 @@ void Ctest2View::OnDraw(CDC* pDC)
 	if (!pDoc)
 		return;
 
-	CRect rect;
-	GetClientRect(&rect);
-	pDC->SetMapMode(MM_ANISOTROPIC);
-	pDC->SetWindowExt(rect.Width(), rect.Height());
-	pDC->SetViewportExt(rect.Width(), -rect.Height());
-	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
-
-	cube.Draw(pDC);
+	DoubleBuffer(pDC);
 	// TODO: 在此处为本机数据添加绘制代码
 }
 
@@ -139,7 +135,66 @@ Ctest2Doc* Ctest2View::GetDocument() const // 非调试版本是内联的
 	ASSERT(m_pDocument->IsKindOf(RUNTIME_CLASS(Ctest2Doc)));
 	return (Ctest2Doc*)m_pDocument;
 }
+
+void Ctest2View::DoubleBuffer(CDC* pDC)
+{
+	CRect rect;
+	GetClientRect(&rect);
+	pDC->SetMapMode(MM_ANISOTROPIC);
+	pDC->SetWindowExt(rect.Width(), rect.Height());
+	pDC->SetViewportExt(rect.Width(), -rect.Height());
+	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
+	CDC memDC;//声明内存DC
+	memDC.CreateCompatibleDC(pDC);//创建一个与显示DC兼容的内存DC
+	CBitmap newBitMap, * pOldBitMap;//定义一个位图，保证每一个像素的颜色
+	newBitMap.CreateCompatibleBitmap(pDC, rect.Width(), rect.Height());//创建兼容内存位图，黑色的
+	pOldBitMap = memDC.SelectObject(&newBitMap);//将兼容位图选入内存区
+	memDC.FillSolidRect(rect, pDC->GetBkColor());//设置客户区背景色
+	rect.OffsetRect(-rect.Width() / 2, -rect.Height() / 2);
+
+	memDC.SetMapMode(MM_ANISOTROPIC);
+	memDC.SetWindowExt(rect.Width(), rect.Height());
+	memDC.SetViewportExt(rect.Width(), -rect.Height());
+	memDC.SetViewportOrg(rect.Width() / 2, rect.Height() / 2);
+	DrawObject(&memDC);//向内存缓冲区中绘制图形
+	pDC->BitBlt(rect.left, rect.top, rect.Width(), rect.Height(), &memDC, -rect.Width() / 2, -rect.Height() / 2, SRCCOPY);
+	memDC.SelectObject(pOldBitMap);
+	newBitMap.DeleteObject();
+	memDC.DeleteDC();
+}
+
+void Ctest2View::DrawObject(CDC* pDC)
+{
+	cube.Draw(pDC);
+}
+
 #endif //_DEBUG
 
 
 // Ctest2View 消息处理程序
+
+
+void Ctest2View::OnTimer(UINT_PTR nIDEvent)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	alpha = 5;
+	beta = 5;
+	transform.RotateX(alpha);
+	transform.RotateY(beta);
+	Invalidate(FALSE);
+	CView::OnTimer(nIDEvent);
+}
+
+
+void Ctest2View::On173()
+{
+	// TODO: 在此添加命令处理程序代码
+	SetTimer(1, 100, nullptr);
+}
+
+
+void Ctest2View::OnIdrToolbar1()
+{
+	SetTimer(1, 100, nullptr);
+	// TODO: 在此添加命令处理程序代码
+}
