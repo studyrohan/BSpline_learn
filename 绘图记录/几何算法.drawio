@@ -340,7 +340,7 @@
           <mxGeometry x="1429" y="3455" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1c_7EhyKGoOSYIAZlhL--1" value="看起来ZcTtAttrShellVertexIntData类似于属性定义，而VsShellVtxAppData 是属性实际的值。ZcTtAttrShellVertexIntData中存储了VsShellVtxAppData&amp;nbsp;的map" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="3320" width="230" height="120" as="geometry" />
+          <mxGeometry x="1480" y="3277" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1c_7EhyKGoOSYIAZlhL--2" value="VxBndSew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="679" y="2480" width="120" height="60" as="geometry" />
@@ -350,6 +350,15 @@
         </mxCell>
         <mxCell id="1c_7EhyKGoOSYIAZlhL--5" value="进行缝合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="2497" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1c_7EhyKGoOSYIAZlhL--6" target="1c_7EhyKGoOSYIAZlhL--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--6" value="VxBndSew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--7" value="VxVtxMergeList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
