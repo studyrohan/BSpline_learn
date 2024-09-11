@@ -327,6 +327,9 @@
         <mxCell id="k5HLEc5P-Sjag6e1dIfe-106" value="VxLipApply" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="479" y="2340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k5HLEc5P-Sjag6e1dIfe-107" target="1c_7EhyKGoOSYIAZlhL--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k5HLEc5P-Sjag6e1dIfe-107" value="VxBndDivide" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="679" y="2340" width="120" height="60" as="geometry" />
         </mxCell>
@@ -336,8 +339,17 @@
         <mxCell id="k5HLEc5P-Sjag6e1dIfe-109" value="计算顶点坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1429" y="3455" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1c_7EhyKGoOSYIAZlhL--1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="3320" width="60" height="30" as="geometry" />
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--1" value="看起来ZcTtAttrShellVertexIntData类似于属性定义，而VsShellVtxAppData 是属性实际的值。ZcTtAttrShellVertexIntData中存储了VsShellVtxAppData&amp;nbsp;的map" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="3320" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--2" value="VxBndSew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="2480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--4" value="Add shell app data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="915" y="3320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1c_7EhyKGoOSYIAZlhL--5" value="进行缝合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2497" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
