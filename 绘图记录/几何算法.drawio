@@ -369,6 +369,12 @@
         <mxCell id="ltPczkFoTHDm0cHYAv5y-3" value="闭合所有offset shell中开放的loop。遍历每个shell中的face对应的loop进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="898" y="4220" width="125" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="ltPczkFoTHDm0cHYAv5y-4" value="添加持久的面到lip shell中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="901.5" y="2338" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ltPczkFoTHDm0cHYAv5y-5" value="会继续创建面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916.5" y="2893" width="127" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
