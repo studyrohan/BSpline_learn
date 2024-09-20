@@ -166,8 +166,8 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-57" value="1 遍历loop中的preedge，查看preedge的next，看两个preedge的edge是否一致，一致就继续&lt;div&gt;2 计算preedge base 再max t的倒数，和next 在min t 的导入，如果平行 ，继续。&lt;/div&gt;&lt;div&gt;3 基于两个preedge 的curve 计算生成新的curve&lt;/div&gt;&lt;div&gt;4 基于edge 的最大值最小值 ，修复参数&lt;/div&gt;&lt;div&gt;5 设置pedge的曲线&lt;/div&gt;&lt;div&gt;6 设置preedge next，删除原来的next&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1140" y="820" width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-60" value="对shel中的每个lp进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1010" width="190" height="30" as="geometry" />
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-60" value="对shel中的每个lp进行处理，递归的设置appdata 对于每个属于loop的vertex，设置VxDraftVtxAppData&lt;div&gt;1对loop中的每个predege获取edge，，基于loop 和edge 的方向决定 vtx 1 vtx 2&lt;/div&gt;&lt;div&gt;2 如果没有属性 添加属性&lt;/div&gt;&lt;div&gt;3 对第一此循环，也就是lp中的第一个preedge，直接设置值其属性，记录第一个顶点对应的属性，设置值的preedge，edge&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="980" width="310" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
