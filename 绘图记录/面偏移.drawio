@@ -22,11 +22,62 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-6" value="VxOffSetFace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-8" value="VxOffSetFace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-8" target="pQGIZ2C4_gywt-hOBK8q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-8" value="OffStEdgAproxExt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-11" value="1首先检查所有的shell，如果输入face在shell中 ，继续处理&lt;div&gt;2遍历shell的所有face 如果face在输入的便宜面列表中，继续处理，有非流行的边要进行分裂处理&lt;/div&gt;&lt;div&gt;3 如果处理方法是move_face,直接拷贝偏移的面，如果不是，获取相离的边，面&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="300" width="210" height="80" as="geometry" />
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-11" value="1首先检查所有的shell，如果输入face在shell中 ，继续处理&lt;div&gt;2遍历shell的所有face 如果face在输入的便宜面列表中，继续处理，有非流行的边要进行分裂处理&lt;/div&gt;&lt;div&gt;3 如果处理方法是move_face,直接拷贝偏移的面，如果不是，获取相离的边，面&lt;/div&gt;&lt;div&gt;4 给面赋予ZcTtAttrDraftFaceData属性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="300" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-12" value="make a first best guess at extending faces in order to form new edges" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="455" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-13" value="函数功能主要是计算几何，3d，uv curve of the draft/offset edgs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-14" target="pQGIZ2C4_gywt-hOBK8q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-14" value="OffFcMrkTanEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-16" value="所有正切边的preedge标记为偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="585" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-17" target="pQGIZ2C4_gywt-hOBK8q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-17" value="FindDrftConflictFcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-19" value="找到拔模冲突的面，随后处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="735" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-20" target="pQGIZ2C4_gywt-hOBK8q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-20" value="VxShellDraft" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-22" value="用拔模方法重新计算topo表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="875" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-23" target="pQGIZ2C4_gywt-hOBK8q-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-23" value="VxMergePEdgAtPole" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-25" value="对shell中的每个loop进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="810" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-26" value="DrftLpSetAppDat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-28" value="用appdata标记所有收到影响的顶点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1015" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
