@@ -4,8 +4,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-1" target="pQGIZ2C4_gywt-hOBK8q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-1" value="FtOffserFace1Util" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-4" target="pQGIZ2C4_gywt-hOBK8q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-4" value="OffserMrgSameVtx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-6" target="pQGIZ2C4_gywt-hOBK8q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-6" value="VxOffSetFace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-8" value="VxOffSetFace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-11" value="1首先检查所有的shell，如果输入face在shell中 ，继续处理&lt;div&gt;2遍历shell的所有face 如果face在输入的便宜面列表中，继续处理，有非流行的边要进行分裂处理&lt;/div&gt;&lt;div&gt;3 如果处理方法是move_face,直接拷贝偏移的面，如果不是，获取相离的边，面&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="300" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
