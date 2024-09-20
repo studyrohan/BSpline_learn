@@ -73,11 +73,80 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-25" value="对shell中的每个loop进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="810" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-26" target="pQGIZ2C4_gywt-hOBK8q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-26" value="DrftLpSetAppDat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-28" value="用appdata标记所有收到影响的顶点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="1015" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-29" target="pQGIZ2C4_gywt-hOBK8q-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-29" value="ComputeTolForDraftEdg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-31" value="计算局部容差" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1155" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-32" target="pQGIZ2C4_gywt-hOBK8q-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-32" value="DrftSetvtxs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-34" target="pQGIZ2C4_gywt-hOBK8q-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-34" value="DrftSetFcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-36" value="设置顶点坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-37" value="添加拔模面到拓扑表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1435" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-38" target="pQGIZ2C4_gywt-hOBK8q-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-38" value="DrftSetEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-40" value="设置边" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-41" target="pQGIZ2C4_gywt-hOBK8q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-41" value="ShlPtchBrkEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-43" value="Patch broken edges" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1710" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-44" target="pQGIZ2C4_gywt-hOBK8q-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-44" value="RemoveSliverFc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-46" value="Remove sliver faces" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1855" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-47" target="pQGIZ2C4_gywt-hOBK8q-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-47" value="TTabCoinEdgMrge,&lt;br&gt;VxCoinEdgSplit,&lt;br&gt;TTabCoinEdgMrg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-49" value="合并一致的边，分类一致的边，合并" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-50" value="TTabCoinEdgMrge,&lt;br&gt;VxCoinEdgSplit,&lt;br&gt;TTabCoinEdgMrg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
