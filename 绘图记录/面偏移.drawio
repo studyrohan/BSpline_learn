@@ -107,67 +107,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-34" value="DrftSetFcs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-36" value="设置顶点坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="825" y="1380" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-37" value="添加拔模面到拓扑表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="825" y="1525" width="100" height="30" as="geometry" />
+          <mxGeometry x="825" y="1875" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-38" target="pQGIZ2C4_gywt-hOBK8q-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-38" value="DrftSetEdgs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="1650" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-40" value="设置边" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="832" y="1660" width="100" height="30" as="geometry" />
+          <mxGeometry x="832" y="2010" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-41" target="pQGIZ2C4_gywt-hOBK8q-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-41" value="ShlPtchBrkEdgs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="1790" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-43" value="Patch broken edges" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="845" y="1800" width="100" height="30" as="geometry" />
+          <mxGeometry x="845" y="2150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-44" target="pQGIZ2C4_gywt-hOBK8q-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-44" value="RemoveSliverFc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="1930" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-46" value="Remove sliver faces" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="845" y="1945" width="100" height="30" as="geometry" />
+          <mxGeometry x="845" y="2295" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-47" target="pQGIZ2C4_gywt-hOBK8q-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-47" value="TTabCoinEdgMrge,&lt;br&gt;VxCoinEdgSplit,&lt;br&gt;TTabCoinEdgMrg" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="2070" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-49" value="合并一致的边，分类一致的边，合并" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="845" y="2080" width="60" height="30" as="geometry" />
+          <mxGeometry x="845" y="2430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-50" target="pQGIZ2C4_gywt-hOBK8q-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-50" value="TTabCoinEdgMrge,&lt;br&gt;VxCoinEdgSplit,&lt;br&gt;TTabCoinEdgMrg" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="2210" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-52" target="pQGIZ2C4_gywt-hOBK8q-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-52" value="重新计算boundingbox" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="2350" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-54" value="RemoveDegenFc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="955" y="2490" width="120" height="60" as="geometry" />
+          <mxGeometry x="955" y="2840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-56" value="移除退化面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="852" y="2505" width="60" height="30" as="geometry" />
+          <mxGeometry x="852" y="2855" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-57" value="VxMergePEdgAtPole1 遍历loop中的preedge，查看preedge的next，看两个preedge的edge是否一致，一致就继续&lt;div&gt;2 计算preedge base 再max t的倒数，和next 在min t 的导入，如果平行 ，继续。&lt;/div&gt;&lt;div&gt;3 基于两个preedge 的curve 计算生成新的curve&lt;/div&gt;&lt;div&gt;4 基于edge 的最大值最小值 ，修复参数&lt;/div&gt;&lt;div&gt;5 设置pedge的曲线&lt;/div&gt;&lt;div&gt;6 设置preedge next，删除原来的next&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1430" y="820" width="390" height="120" as="geometry" />
@@ -187,6 +187,9 @@
         <mxCell id="d2OW6P6U3G21HQouhzNC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d2OW6P6U3G21HQouhzNC-1" value="DrftEvalVtx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1155" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
@@ -199,8 +202,29 @@
         <mxCell id="d2OW6P6U3G21HQouhzNC-5" value="ZcDrftEvalVtx.EvalSpecialVtx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1355" y="1370" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-7" value="ZcDrftEvalVtx.EvalSpecialVtx&lt;br&gt;1计算顶点连接到固定的边&lt;div&gt;1 首先判断是否是固定的边，通过属性，不是返回。&lt;/div&gt;&lt;div&gt;2 获取顶点的ZcTtAttrDraftVertexData 属性列表&lt;/div&gt;&lt;div&gt;3连接到stationary edge的顶点三维坐标不应该被改变，所以我们计算uv 参数点在拔模曲面，通过投影旧的顶点到曲面上VxSrfPrjPntSeam 后续试用了牛顿迭代，同时也用到了把曲面划分成为网格，然后进行投影&lt;/div&gt;&lt;div&gt;4 更新顶点属性数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;2计算顶点连接到正切的边&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="1380" width="370" height="170" as="geometry" />
+        <mxCell id="d2OW6P6U3G21HQouhzNC-7" value="ZcDrftEvalVtx.EvalSpecialVtx&lt;br&gt;1计算顶点连接到固定的边&lt;div&gt;1 首先判断是否是固定的边，通过属性，不是返回。&lt;/div&gt;&lt;div&gt;2 获取顶点的ZcTtAttrDraftVertexData 属性列表&lt;/div&gt;&lt;div&gt;3连接到stationary edge的顶点三维坐标不应该被改变，所以我们计算uv 参数点在拔模曲面，通过投影旧的顶点到曲面上VxSrfPrjPntSeam 后续试用了牛顿迭代，同时也用到了把曲面划分成为网格，然后进行投影&lt;/div&gt;&lt;div&gt;4 更新顶点属性数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;2计算顶点连接到正切的边&lt;/div&gt;&lt;/div&gt;&lt;div&gt;tangent edge 正切边，概念是边相邻的两个面试是G1 连续的，比如说圆角产生的两个边&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1370" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-8" value="DrftCkSlfXEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-10" value="DrftVtxAddEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-12" value="检查自交的边：处理的都是带拔模属性的边上的顶点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1530" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-13" value="在需要的地方创建新的topo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1665" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2OW6P6U3G21HQouhzNC-15" value="DrftEdgCkSlfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
