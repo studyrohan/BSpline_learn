@@ -97,7 +97,7 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-32" target="pQGIZ2C4_gywt-hOBK8q-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-32" target="d2OW6P6U3G21HQouhzNC-1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-32" target="d2OW6P6U3G21HQouhzNC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-32" value="DrftSetvtxs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -112,17 +112,20 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-36" value="设置顶点坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="825" y="1380" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-37" value="添加拔模面到拓扑表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-37" value="添加拔模面到拓扑表中，参数为topo表 ，shell index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="825" y="1875" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-38" target="pQGIZ2C4_gywt-hOBK8q-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pQGIZ2C4_gywt-hOBK8q-38" target="3iRj1FGSgXt2MXhwVI27-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-38" value="DrftSetEdgs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="955" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pQGIZ2C4_gywt-hOBK8q-40" value="设置边" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="832" y="2010" width="100" height="30" as="geometry" />
+        <mxCell id="pQGIZ2C4_gywt-hOBK8q-40" value="设置边：参数为原始的edge个数，一些列产生的新的edge，构建的曲面列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="2010" width="132" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pQGIZ2C4_gywt-hOBK8q-41" target="pQGIZ2C4_gywt-hOBK8q-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -184,47 +187,65 @@
         <mxCell id="pQGIZ2C4_gywt-hOBK8q-64" value="DisMltPntCrv:计算一些列点到指定曲线的距离，找最近的点，最近的点要么是重点要么是法向投影点&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GapOfEdgWithRefine：返回edge，preedge，refined preedges的最大间隙，输入要是一个流形边&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1790" y="1180" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-5">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-8">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d2OW6P6U3G21HQouhzNC-1" target="d2OW6P6U3G21HQouhzNC-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-1" value="DrftEvalVtx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-1" value="DrftEvalVtx" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-3" value="处理一堆顶点上的appdata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-3" value="处理一堆顶点上的appdata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1075" y="1330" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-4" value="DrftEvalVtx：对于偏移的vertex设置其几何" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-4" value="DrftEvalVtx：对于偏移的vertex设置其几何" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1186" y="1330" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-5" value="ZcDrftEvalVtx.EvalSpecialVtx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-5" value="ZcDrftEvalVtx.EvalSpecialVtx" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1355" y="1370" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-7" value="ZcDrftEvalVtx.EvalSpecialVtx&lt;br&gt;1计算顶点连接到固定的边&lt;div&gt;1 首先判断是否是固定的边，通过属性，不是返回。&lt;/div&gt;&lt;div&gt;2 获取顶点的ZcTtAttrDraftVertexData 属性列表&lt;/div&gt;&lt;div&gt;3连接到stationary edge的顶点三维坐标不应该被改变，所以我们计算uv 参数点在拔模曲面，通过投影旧的顶点到曲面上VxSrfPrjPntSeam 后续试用了牛顿迭代，同时也用到了把曲面划分成为网格，然后进行投影&lt;/div&gt;&lt;div&gt;4 更新顶点属性数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;2计算顶点连接到正切的边&lt;/div&gt;&lt;/div&gt;&lt;div&gt;tangent edge 正切边，概念是边相邻的两个面试是G1 连续的，比如说圆角产生的两个边&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-7" value="ZcDrftEvalVtx.EvalSpecialVtx&lt;br&gt;1计算顶点连接到固定的边&lt;div&gt;1 首先判断是否是固定的边，通过属性，不是返回。&lt;/div&gt;&lt;div&gt;2 获取顶点的ZcTtAttrDraftVertexData 属性列表&lt;/div&gt;&lt;div&gt;3连接到stationary edge的顶点三维坐标不应该被改变，所以我们计算uv 参数点在拔模曲面，通过投影旧的顶点到曲面上VxSrfPrjPntSeam 后续试用了牛顿迭代，同时也用到了把曲面划分成为网格，然后进行投影&lt;/div&gt;&lt;div&gt;4 更新顶点属性数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;2计算顶点连接到正切的边&lt;/div&gt;&lt;/div&gt;&lt;div&gt;tangent edge 正切边，概念是边相邻的两个面试是G1 连续的，比如说圆角产生的两个边&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1770" y="1370" width="370" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-10">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-15">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d2OW6P6U3G21HQouhzNC-8" target="d2OW6P6U3G21HQouhzNC-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-8" value="DrftCkSlfXEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-8" value="DrftCkSlfXEdgs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-10" value="DrftVtxAddEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-10" value="DrftVtxAddEdgs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-12" value="检查自交的边：处理的都是带拔模属性的边上的顶点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-12" value="检查自交的边：处理的都是带拔模属性的边上的顶点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1530" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-13" value="在需要的地方创建新的topo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-13" value="在需要的地方创建新的topo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="1665" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d2OW6P6U3G21HQouhzNC-15" value="DrftEdgCkSlfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d2OW6P6U3G21HQouhzNC-15" value="DrftEdgCkSlfx" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1355" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-1" value="遍历所有的边，获取边上顶点的属性，看是否存在，如果存在，DrftEdgSerCurv" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1960" width="159" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3iRj1FGSgXt2MXhwVI27-3" target="3iRj1FGSgXt2MXhwVI27-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-3" value="TrimEnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-5" value="DrftEdgSerCurv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-7" value="TrimEnd：移动这个边的interval对应moved vertex，同时修复其preedge&lt;div&gt;1 计算顶点位置，计算边曲线，计算顶点和曲线之间的距离，如果距离大于容差直接返回&lt;/div&gt;&lt;div&gt;2如果继续修复edge的参数域为最大最小值结果&lt;/div&gt;&lt;div&gt;3 VxCrvRoughLen：计算一个曲线的粗略长度，如果很小，直接返回&lt;/div&gt;&lt;div&gt;4修正edge对应的preedge的参数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2010" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3iRj1FGSgXt2MXhwVI27-8" value="DrftEdgSerCurv：计算拔模/偏移产生的边&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2030" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
