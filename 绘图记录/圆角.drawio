@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="iBJ_GWcfPtX9u_OSnHqf">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-1" target="LDhWUrSwQTJ1c1cMy9sq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-1" value="FtTwkFllt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-2" value="修改圆角半径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-3" target="LDhWUrSwQTJ1c1cMy9sq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-3" value="FtTwkFlltFcsOld" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-5" value="修复所有的给定面到给定半径，然后进行模型修复" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-6" value="判断是否是圆角面，&lt;div&gt;FtTwkTrmFlltSrf ：裁剪面到环，实现流程就是获取loop的titlebox，基于box去裁剪face的surface，loop的box也是在参数空间&lt;/div&gt;&lt;div&gt;给面添加ZcFcAType 类型的属性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="305" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-7" target="LDhWUrSwQTJ1c1cMy9sq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-7" value="FtTwkAddFlltPatchsToSelection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="440" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-9" value="recursively add all of the fillet patch faces that border the extended section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="455" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-10" value="FtTwkAddFlltPatchsToSelection:输入为topo表，圆角半径，面的dbidx，用face region utility 的方式收集圆角过度面&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="455" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-11" value="fillet patch face：圆角过度面&lt;div&gt;圆角链：连续相切的圆角面j&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="90" width="351" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-12" target="LDhWUrSwQTJ1c1cMy9sq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-12" value="FtTwkFlltBndryFllts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-14" value="获取边界圆角，存储相关信息，以便于后续重生成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="595" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-15" value="FtTwkConnectFllts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-17" value="生成圆角链和corners 从一系列圆角面中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="540" width="133" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
