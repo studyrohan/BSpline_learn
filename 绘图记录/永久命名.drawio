@@ -175,17 +175,50 @@
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-59" value="关联属性对象到实体对象上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="2400" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-60" target="Ts9Bh8uWTPnmQCfURnaA-62">
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-60" target="Ts9Bh8uWTPnmQCfURnaA-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-60" value="计算属性对象中的实际数据结构，其结构体中存储了关联的实体对象中的dbidx，把它取出来看他还在不在，是不是备份的。&lt;div&gt;获取属性对象的永久命名&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="2220" width="170" height="60" as="geometry" />
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-60" value="计算属性对象中的实际数据结构，其结构体中存储了关联的实体对象中的dbidx，把它取出来看他还在不在，是不是备份的。&lt;div&gt;获取属性对象的永久命名VsCdEntAt 的内存之外的位置，是永久命名，非常神奇，而且这个是面的label&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2215" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-62" target="Ts9Bh8uWTPnmQCfURnaA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-62" target="Ts9Bh8uWTPnmQCfURnaA-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-62" value="CdLblEvalUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="2220" width="170" height="60" as="geometry" />
+          <mxGeometry x="1340" y="2220" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-64" value="得到的entty就是实体的face啊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1165" y="2170" width="120" height="30" as="geometry" />
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-64" value="VsCdEntAt 的obj_idx 字段，是原来的facehandle&amp;nbsp;&lt;div&gt;得到的entty就是实体的face啊&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="2170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-65" target="Ts9Bh8uWTPnmQCfURnaA-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-65" value="cdlblMatchCtrlSet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-66" value="设置匹配规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-69" target="Ts9Bh8uWTPnmQCfURnaA-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-69" value="CdLblFind" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="2220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-71" value="LblBestMatch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="2360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-73" value="做完所有的查找" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="2170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-74" value="返回查找到的结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="2370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-75" value="CdUpdateEntinfo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="2360" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
