@@ -1,9 +1,144 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="vYS6v0fsoe0cMUOPnu9x">
-    <mxGraphModel>
+    <mxGraphModel dx="1877" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-1" value="&lt;h3 class=&quot;md-end-block md-heading md-focus&quot; style=&quot;box-sizing: border-box; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.17rem; margin: 0px 0px 1.5rem; clear: both; overflow-wrap: break-word; padding: 0px; color: rgb(222, 222, 222); line-height: 1.5rem; letter-spacing: -1px; white-space: pre-wrap; position: relative; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; letter-spacing: normal;&quot; class=&quot;md-end-block md-p&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;由于zw3d使用边界表示法，所以label单位的核心是face label。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; letter-spacing: normal;&quot; class=&quot;md-end-block md-p&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;Label大致可以认为样子是这样的：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; letter-spacing: normal;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;Type, Par Ftr, (optional), position code.&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 class=&quot;md-end-block md-heading md-focus&quot; style=&quot;box-sizing: border-box; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.17rem; margin: 0px 0px 1.5rem; clear: both; overflow-wrap: break-word; padding: 0px; color: rgb(222, 222, 222); line-height: 1.5rem; letter-spacing: -1px; white-space: pre-wrap; position: relative; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;生成规则&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p class=&quot;md-end-block md-p&quot; style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; white-space: pre-wrap; position: relative; color: rgb(184, 191, 198); font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;面label生成于建模运算当中，从tt带入到brep。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;md-end-block md-p&quot; style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; white-space: pre-wrap; position: relative; color: rgb(184, 191, 198); font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;体label生成于tttobrep过程，根据该shell包含的面决定。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;md-end-block md-p&quot; style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; white-space: pre-wrap; position: relative; color: rgb(184, 191, 198); font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;边label是惰性求解，使用到的时候才会进行计算。比如对于没有生成过边label的边，你点击它，查看entity info，这个时候这条边的label才会被进行计算&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="560" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-2" value="创建一个box赋予属性的过程，重生成，查询永久命名，重新赋予属性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="555" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-3" target="Ts9Bh8uWTPnmQCfURnaA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-3" value="createblock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-4" target="Ts9Bh8uWTPnmQCfURnaA-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-4" value="CdVfaceAppAt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-6" value="赋予颜色属性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-8" target="Ts9Bh8uWTPnmQCfURnaA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-8" value="CdVfaceAppAt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-9" target="Ts9Bh8uWTPnmQCfURnaA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-9" target="Ts9Bh8uWTPnmQCfURnaA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-9" value="VxInpPathUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-11" value="在界面上获取path，输入数据是prj bin中的，indx_list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="890" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-12" target="Ts9Bh8uWTPnmQCfURnaA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-12" value="VxInpPathGen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-14" value="VxInpPathOnly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-16" value="基于实际的对象获取pickpath，pickpath居然是存在VsObject的data字段的？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="900" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-17" target="Ts9Bh8uWTPnmQCfURnaA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-17" value="CdPickPAthCvt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-19" value="把相对的pickpath转换为绝对的pickpath，以目标对象的额root bin为开始" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1095" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-20" value="流程既是把-V_PATH_TARGET 换成-V_PATH_ROOT,在添加上VgTargetObj的pickpath，这个pickpath就是标识了当前文件，也是一个两位的，不过开头是 -2.操作结束这里从-1，14变成了 -2，55，146" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1090" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-21" target="Ts9Bh8uWTPnmQCfURnaA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-21" value="CdVFaceAppAtInpUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-23" value="获取输入面信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-24" target="Ts9Bh8uWTPnmQCfURnaA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-24" value="CdAppearanceLibAdd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-26" value="基于属性创建一个uid，好像在这个过程中直接把属性落盘了 ，uid十个文件名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1375" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-27" target="Ts9Bh8uWTPnmQCfURnaA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-27" target="Ts9Bh8uWTPnmQCfURnaA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-27" value="CdAppearceSetByUUid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-29" target="Ts9Bh8uWTPnmQCfURnaA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-29" value="CdPartAddAppearnce" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-31" value="CdSfAtSetObjAt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-33" value="创建属性DB对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-34" value="添加属性到part中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-35" value="CdTargetEntAtPost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-37" value="为了重生成，发布一个实体属性去记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-38" value="双击编辑,在命令结束之后会去调用属性处理的代码，基于part去处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="2020" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-39" target="Ts9Bh8uWTPnmQCfURnaA-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-39" value="双击box改参数重生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-41" value="属性在命令结束时候重新附着" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-43" value="发在CdFtrRedefineEnd的时候" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="500" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-44" value="CdPartEntAtEval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-46" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-47" value="计算记录在part中的实体属性，刷新属性会到他们的owner中，输入参数为part 的obj，特征的index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2095" width="120" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
