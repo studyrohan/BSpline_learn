@@ -130,14 +130,62 @@
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-43" value="发在CdFtrRedefineEnd的时候" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="500" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-44" target="Ts9Bh8uWTPnmQCfURnaA-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-44" value="CdPartEntAtEval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-46" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1930" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-47" value="计算记录在part中的实体属性，刷新属性会到他们的owner中，输入参数为part 的obj，特征的index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="2095" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-48" target="Ts9Bh8uWTPnmQCfURnaA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-48" value="ZsEntAt::entAtListByHIstObj" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2080" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-50" value="获取指定对象的属性实体列表，输入为特征的index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2040" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-51" target="Ts9Bh8uWTPnmQCfURnaA-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-51" target="Ts9Bh8uWTPnmQCfURnaA-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-51" value="CdEntAtEval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-53" value="查找db对象，这个db对象通过属性输入对象管理的永久命名决定的。如果找到了，就把属性赋给实体" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-54" value="CdEntAtEval&lt;div&gt;1获取属性实体的永久命名，判断是否是面&lt;/div&gt;&lt;div&gt;2获取属性对应的结构体对象，里面存储了ent的obj&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1950" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-55" target="Ts9Bh8uWTPnmQCfURnaA-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-55" value="CdEntAtEvalEvalute" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-57" value="CdEntAtSetObjAt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2370" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-59" value="关联属性对象到实体对象上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-60" target="Ts9Bh8uWTPnmQCfURnaA-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-60" value="计算属性对象中的实际数据结构，其结构体中存储了关联的实体对象中的dbidx，把它取出来看他还在不在，是不是备份的。&lt;div&gt;获取属性对象的永久命名&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-62" value="CdLblEvalUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="2220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-64" value="得到的entty就是实体的face啊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="2170" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
