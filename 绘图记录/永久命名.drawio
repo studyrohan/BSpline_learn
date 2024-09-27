@@ -241,8 +241,44 @@
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-82" value="基于缓存找不到" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1852.5" y="2308" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-83" target="Ts9Bh8uWTPnmQCfURnaA-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ts9Bh8uWTPnmQCfURnaA-83" value="CdBrepFindLbl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1840" y="2500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-85" target="Ts9Bh8uWTPnmQCfURnaA-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-85" value="CdBrepFindFaceLbl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-87" target="Ts9Bh8uWTPnmQCfURnaA-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-87" value="CdBrepTravFaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="2500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-89" target="Ts9Bh8uWTPnmQCfURnaA-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-89" value="CdFindLblParallel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="2640" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-91" value="遍历brep中的所有face" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="2450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-92" value="对找到的face进行并行匹配" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2590" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts9Bh8uWTPnmQCfURnaA-93" target="Ts9Bh8uWTPnmQCfURnaA-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-93" value="CdBrepTraveShells" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="2780" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts9Bh8uWTPnmQCfURnaA-95" value="CdGenericFindLblUtil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="2780" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
