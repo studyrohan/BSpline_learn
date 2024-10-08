@@ -1,9 +1,225 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="Db8p-vy7kP_5URtwKBlo">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="-551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-2" target="CbZR4cT0DOuaE8quWj7i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-2" value="VxLIpMain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-5" target="CbZR4cT0DOuaE8quWj7i-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-5" target="CbZR4cT0DOuaE8quWj7i-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-5" value="VxLipShell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-7" target="CbZR4cT0DOuaE8quWj7i-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-7" value="LipOffsetChain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-9" target="CbZR4cT0DOuaE8quWj7i-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-9" value="LipOffsetChain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-11" target="CbZR4cT0DOuaE8quWj7i-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-11" value="ChainAddOffFcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="2327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-14" target="CbZR4cT0DOuaE8quWj7i-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-14" target="CbZR4cT0DOuaE8quWj7i-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-14" value="ChainAddOffLps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="2467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-16" target="CbZR4cT0DOuaE8quWj7i-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-16" value="ChainAddOffEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="2611" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-18" target="CbZR4cT0DOuaE8quWj7i-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-18" value="SurAddOffFcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="2887" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-21" target="CbZR4cT0DOuaE8quWj7i-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-21" target="CbZR4cT0DOuaE8quWj7i-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-21" value="SurAddOffLps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="3027" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-23" target="CbZR4cT0DOuaE8quWj7i-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-23" value="SurAddOffEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="3167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-26" target="CbZR4cT0DOuaE8quWj7i-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-26" target="CbZR4cT0DOuaE8quWj7i-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-26" value="ChainAddVtxDat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="3307" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-29" target="CbZR4cT0DOuaE8quWj7i-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-29" target="CbZR4cT0DOuaE8quWj7i-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-29" value="LipSetOffGeom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="3447" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-30" value="Add offset vertices considerable app data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="915" y="3195" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-32" target="CbZR4cT0DOuaE8quWj7i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-32" value="ChainMarkVtxDat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-33" value="ChainLoopAddVtxDat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3307" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-34" value="对offset shell中的每个loop进行分别处理，同时进行递归，递归其next和innner。正常的情况下，每个顶点添加三个VsShellVtxAppdata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="3187" width="204" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-35" value="ChainMakeOffsetLoops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="2467" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-36" value="这个历程添加looop和preedge信息到offset shell中，非常复杂的函数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="898" y="2482" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-37" value="组装loop，在这个过程中有loop的创建，preedge的创建， loop与face的相互关联" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1284" y="2398" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-38" value="添加loop和preedege的信息给 oofset set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="903" y="3039" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-39" value="SurMakeOffsetLoops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3027" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-40" value="观察loop上是否有属性，有属性走这个逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1199" y="2966" width="76" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-41" value="创建loop绑定上一步创建出来的face，创建preedge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="2981" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-43" target="CbZR4cT0DOuaE8quWj7i-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-43" value="VtxEvalOffPnts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3447" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-45" target="CbZR4cT0DOuaE8quWj7i-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-45" value="edgeOffCkSlfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3587" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-47" target="CbZR4cT0DOuaE8quWj7i-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-47" value="edgeOffCkSlfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3727" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-49" target="CbZR4cT0DOuaE8quWj7i-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-49" value="VxtAddShellEdgs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="3867" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-50" value="LipSetOffEdge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="4007" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-52" target="CbZR4cT0DOuaE8quWj7i-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-52" value="VxLipApply" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-54" target="CbZR4cT0DOuaE8quWj7i-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-54" value="VxBndDivide" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-55" value="这个例程会添加edge和顶点信息到lip shell中。同样的这个函数也是基于loop进行处理，对所有新增的loop进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2626" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-56" value="计算顶点坐标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1429" y="3455" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-57" value="看起来ZcTtAttrShellVertexIntData类似于属性定义，而VsShellVtxAppData 是属性实际的值。ZcTtAttrShellVertexIntData中存储了VsShellVtxAppData&amp;nbsp;的map。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="3320" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-58" value="VxBndSew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="2480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-59" value="Add shell app data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="915" y="3320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-60" value="进行缝合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2497" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-62" target="CbZR4cT0DOuaE8quWj7i-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-62" value="VxBndSew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-63" value="VxVtxMergeList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CbZR4cT0DOuaE8quWj7i-65" target="CbZR4cT0DOuaE8quWj7i-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-65" value="LipCloseOffLoop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="4150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-66" value="闭合所有offset shell中开放的loop。遍历每个shell中的face对应的loop进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897" y="4150" width="125" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-67" value="添加持久的面到lip shell中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="901.5" y="2338" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-68" value="会继续创建面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916.5" y="2893" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-69" value="LipCloseOffLoop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1278" y="4150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-70" value="闭合指定的loop和相邻loop 递归处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="4110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-71" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;算法步骤：&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;入参：拓扑表，base loop index，edge chain ，一系列内容与cap相关&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;1 从base loop中取出 base shell，借助base shell的appdata获取offset shell 构建 offset shell&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;2通过base face 的lp与输入对比判断是否是outter loop&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;3 对于一个有退化边的闭合loop，开始的preedge不应该对应一个退化边，否则程序将陷入无休止的循环（此段逻辑被版本控制）&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;4对每个base loop中的preedge进行处理，判断是否在chain上，然后一定的逻辑，找是否在chain上，找不到就停止了&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;5 CLOSE_CHAIN 段，这里有意思，&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;这个时候preedge的创建，不一定对应的是哪个时机loop的创建&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;6添加chain edge for裁剪边，如果没有caps，我们要加一个distnct loop因为我们需要一个inner loop 在闭合的情况，所以这个loop是不一定被创建出来的&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;7&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="2387" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CbZR4cT0DOuaE8quWj7i-72" value="ChainAddOffEdgs算法步骤：输入为拓扑表，chain edges原始的loop计数，back pointer data&lt;div&gt;1 获取所有的offset loop，对每个loop进行遍历&lt;/div&gt;&lt;div&gt;2获取appdata，获取base loop，base face&lt;/div&gt;&lt;div&gt;3 对offset loop中的每个preedge进行处理，获取ofset preedg 的appdata ，拿出base preedge&lt;/div&gt;&lt;div&gt;4 base pe对应的edge是否在链上还有基于边的顶点是否能找到edge，叫做incident&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="2650" width="258" height="109" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
