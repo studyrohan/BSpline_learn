@@ -1,122 +1,191 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="iBJ_GWcfPtX9u_OSnHqf">
-    <mxGraphModel dx="875" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-1" target="LDhWUrSwQTJ1c1cMy9sq-3">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-1" target="LDhWUrSwQTJ1c1cMy9sq-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-1" value="FtTwkFllt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-1" value="FtTwkFllt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-2" value="修改圆角半径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-2" value="修改圆角半径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="305" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-3" target="LDhWUrSwQTJ1c1cMy9sq-7">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-3" target="LDhWUrSwQTJ1c1cMy9sq-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-3" value="FtTwkFlltFcsOld" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-3" value="FtTwkFlltFcsOld" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-5" value="修复所有的给定面到给定半径，然后进行模型修复" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-5" value="修复所有的给定面到给定半径，然后进行模型修复" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="240" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-6" value="判断是否是圆角面，&lt;div&gt;FtTwkTrmFlltSrf ：裁剪面到环，实现流程就是获取loop的titlebox，基于box去裁剪face的surface，loop的box也是在参数空间&lt;/div&gt;&lt;div&gt;给面添加ZcFcAType 类型的属性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-6" value="判断是否是圆角面，&lt;div&gt;FtTwkTrmFlltSrf ：裁剪面到环，实现流程就是获取loop的titlebox，基于box去裁剪face的surface，loop的box也是在参数空间&lt;/div&gt;&lt;div&gt;给面添加ZcFcAType 类型的属性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="305" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-7" target="LDhWUrSwQTJ1c1cMy9sq-12">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-7" target="LDhWUrSwQTJ1c1cMy9sq-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-7" value="FtTwkAddFlltPatchsToSelection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-7" value="FtTwkAddFlltPatchsToSelection" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="440" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-9" value="recursively add all of the fillet patch faces that border the extended section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-9" value="recursively add all of the fillet patch faces that border the extended section" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="319" y="455" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-10" value="FtTwkAddFlltPatchsToSelection:输入为topo表，圆角半径，面的dbidx，用face region utility 的方式收集圆角过度面&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-10" value="FtTwkAddFlltPatchsToSelection:输入为topo表，圆角半径，面的dbidx，用face region utility 的方式收集圆角过度面&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="455" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-11" value="fillet patch face：圆角过度面&lt;div&gt;圆角面链：连续相切的圆角面&lt;/div&gt;&lt;div&gt;圆角边链：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-11" value="fillet patch face：圆角过度面&lt;div&gt;圆角面链：连续相切的圆角面&lt;/div&gt;&lt;div&gt;圆角边链：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="319" y="90" width="351" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-12" target="LDhWUrSwQTJ1c1cMy9sq-15">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-12" target="LDhWUrSwQTJ1c1cMy9sq-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-12" target="LDhWUrSwQTJ1c1cMy9sq-20">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-12" target="LDhWUrSwQTJ1c1cMy9sq-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-12" value="FtTwkFlltBndryFllts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-12" value="FtTwkFlltBndryFllts" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="580" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-14" value="获取边界圆角，存储相关信息，以便于后续重生成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-14" value="获取边界圆角，存储相关信息，以便于后续重生成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="595" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-15" target="LDhWUrSwQTJ1c1cMy9sq-18">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-15" target="LDhWUrSwQTJ1c1cMy9sq-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-15" value="FtTwkConnectFllts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-15" value="FtTwkConnectFllts" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="580" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-17" value="生成圆角链和corners 从一系列圆角面中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-17" value="生成圆角链和corners 从一系列圆角面中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="827" y="540" width="133" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-18" value="FtTwkAddMixedCnvx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-18" value="FtTwkAddMixedCnvx" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="720" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-20" target="LDhWUrSwQTJ1c1cMy9sq-22">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-20" target="LDhWUrSwQTJ1c1cMy9sq-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-20" value="DEFlltChnsMk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-20" value="DEFlltChnsMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="850" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-22" target="LDhWUrSwQTJ1c1cMy9sq-24">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-22" target="LDhWUrSwQTJ1c1cMy9sq-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-22" value="DEFlltPatchesMk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-22" value="DEFlltPatchesMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="990" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-24" target="LDhWUrSwQTJ1c1cMy9sq-27">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-24" target="LDhWUrSwQTJ1c1cMy9sq-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-24" value="FtTwkRmFillts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-24" value="FtTwkRmFillts" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="1130" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-26" value="移除圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-26" value="移除圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="1139" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-27" target="LDhWUrSwQTJ1c1cMy9sq-30">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-27" target="LDhWUrSwQTJ1c1cMy9sq-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-27" value="DEFlltChnFllt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-27" value="DEFlltChnFllt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="1270" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-29" value="重新生成DE圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-29" value="重新生成DE圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="1285" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-30" target="LDhWUrSwQTJ1c1cMy9sq-33">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-30" target="LDhWUrSwQTJ1c1cMy9sq-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-30" value="DEFlltChnsUpdate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-30" value="DEFlltChnsUpdate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="1270" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-32" value="更新所有的DE圆角链到新的位置" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-32" value="更新所有的DE圆角链到新的位置" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="838.5" y="1230" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-33" target="LDhWUrSwQTJ1c1cMy9sq-36">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-33" target="LDhWUrSwQTJ1c1cMy9sq-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-33" value="DEFlltChnsMk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-33" value="DEFlltChnsMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="1410" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-35" value="创建一个圆角链对每个更新的DE圆角链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-35" value="创建一个圆角链对每个更新的DE圆角链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="1425" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-36" value="VxAFChains" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDhWUrSwQTJ1c1cMy9sq-36" target="ZmWXUVFL1nFRZLdXcY8G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-36" value="VxAFChains" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="1550" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-38" value="创建圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1565" width="60" height="30" as="geometry" />
+        <mxCell id="LDhWUrSwQTJ1c1cMy9sq-38" value="relabel所有的新圆角，以便于他们可以便于他们可以保持旧的label" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1930" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-1" target="ZmWXUVFL1nFRZLdXcY8G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-1" value="DEFlltChnReLabelFcs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1900" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-3" target="ZmWXUVFL1nFRZLdXcY8G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-3" value="DEFlltChnReLabelFc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1900" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-5" target="ZmWXUVFL1nFRZLdXcY8G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-5" target="ZmWXUVFL1nFRZLdXcY8G-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-5" value="DEFlltOneSample" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1900" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-7" value="用来判断是不是圆角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="1840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-8" target="ZmWXUVFL1nFRZLdXcY8G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-8" value="DEFlltMatchSmps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2480" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-10" value="CdLblMapOneUid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2620" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-13" target="ZmWXUVFL1nFRZLdXcY8G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-13" value="FlltXsectdir：查看是哪个等参线是从轨道到轨道的&lt;div&gt;VxFaceGetSrfFlavored：获取几何曲面&lt;/div&gt;&lt;div&gt;采样等参数线ExtractIsoCurve&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1890" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-15" target="ZmWXUVFL1nFRZLdXcY8G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-15" value="VxCrvFlltParam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="2035" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-17" value="基于给定的圆角面上的3D曲线，引入圆角的相关参数，包括半径，圆锥比例，圆角圆弧的中心点，圆角面法向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="2055" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmWXUVFL1nFRZLdXcY8G-18" target="ZmWXUVFL1nFRZLdXcY8G-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-18" value="用圆角裁剪loop与2d的等参线求交&lt;div&gt;FlltIsoLineIntersections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="2180" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-20" value="FlltCrossEdgeEval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="2325" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-22" value="基于当前preedge，计算对应的other preedge面上的信息，&lt;div&gt;两个轨道对应的面，即为支撑面。&lt;/div&gt;&lt;div&gt;随后设置了DEFlltSample的移动面和固定面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1923" y="2325" width="340" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-23" value="更新永久命名，face的label字段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="2635" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmWXUVFL1nFRZLdXcY8G-29" value="从参数域开始到结束对圆角面进行采样，仅仅反馈等参线在两边都触碰到轨道的地方" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="1840" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
