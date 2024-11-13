@@ -7,6 +7,12 @@
         <mxCell id="xnrFFT-Z6RItZ-fGzRB7-1" value="基于nurbs构建圆弧：&lt;br&gt;函数名字：MakeCircle1&lt;div&gt;degree设置为2，基于圆弧的弧度选择控制点个数，如果小于2pi/3,控制点个数设置为3，如果大于2pi/3小于4pi/3，控制点个数为5，如果大于4pi/3，控制点个数设置为7.&lt;/div&gt;&lt;div&gt;节点数量 =&amp;nbsp; 控制点个数+degree+1&lt;/div&gt;&lt;div&gt;准均匀有理b样条，设置前后degree+1个节向量为0&lt;/div&gt;&lt;div&gt;假设五个控制点的情况，节点为8个，前三个为0，后三个为0，中间两个就是0.5&lt;/div&gt;&lt;div&gt;假设7个控制点的情况，节点个数就是10个，前三个后三个节点为0，中间四个分别为1/3，1/3，2/3，2/3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;圆锥曲面：uv空间，u空间是直线，V空间为曲线，节向量为 0，0，0，0.25，0.25，0.5,0.5,0.75,0.75,1,1,1,均匀有理b样条，阶数为2，节向量个数是十二，那么就是9个控制点，八个控制点在一个举行平面，一个位于圆锥点顶点，整的的形状就是把圆锥包起来的一个棱锥形状。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="310" width="390" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="yjY0G7VqyQPzWEiqZhzZ-3" value="refine：VxPEdgMkRefine，基于一个preedge，和相应的底层曲面，重新构造一个uv曲线出来，如果边是准确的，那么就使用边的数据，refine类型V_C2_REF_C3&amp;nbsp;。如果边是不准确的，那么就是用面的数据，refine类型V_C2_REF_SURFS&lt;div&gt;实际应用VxCvEvalRefine,然后一个好的例子，refineUvEntToVtxDist&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;还有一个例子，计算edge的最大间隙，gapOfEdgeWithRefine：return the max gap of edge preedges and refined pre-edges&lt;/div&gt;&lt;div&gt;获取edge对应的两个preedge，获取preeedge对应的loop，获取loop对应的surface，基于preedge和surface，构建preedge refine&lt;/div&gt;&lt;div&gt;V_C2_REF_C3 这个枚举类是什么意思，引用的是三维曲线？&lt;/div&gt;&lt;div&gt;最后的结果是获取到了一个新的curve，然后与edge本身对应的curve求距离调用VxEdgeGap&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="660" width="370" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yjY0G7VqyQPzWEiqZhzZ-4" value="面面求交的过程：面面求交，求出来一系列的点，本来就在二位空间上，带参数，基于二维空间的参数点拟合出两条二维曲线，同时也可以基于参数值计算出两条三维曲线，然后基于三维点求平均值，然后拟合出来三维点，形成三维边" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="970" width="390" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
