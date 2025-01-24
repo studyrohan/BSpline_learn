@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lESOEBqq5sxFyAbrs5ii-1" value="loop翻转方向：VxLoopRersDir,本质是翻转loop中每条preedge的方向，然后设置preedge的next，为之前的previous&lt;div&gt;shape翻转方向：对shape中的所有面进行翻转方向，免得方向boundside&lt;/div&gt;&lt;div&gt;VxFacRvrs&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lESOEBqq5sxFyAbrs5ii-2" value="VxEdgFcGetPEdgUv:给定一个面和边，返回他们共同使用的preedge&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VxCrvEvalPnt:基于曲线和参数计算曲线上的点&lt;/div&gt;&lt;div&gt;VxPntPrjCrvWrap:投影3d点到曲面上曲线，详尽解释是找到一个点，投影点，这个点在曲线行距离输入点最近/最远，其底层调用的也是VxNrbEvalGeom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;计算点到线的距离：DistPntCrv,最近的点要么是终点要么是投影点&lt;/div&gt;&lt;div&gt;首先解析求解：AlytDistPntCurv&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lESOEBqq5sxFyAbrs5ii-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;VxNrbEvalGeom:计算三种情况，曲线，曲面上曲线，曲面&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;bspEvalBasis&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;投影计算：ProjPtToCir&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;投影到平面：ProjPtToPlane，平面用四个double参数表达，前三个是法向向量的三个值，后面是法向*点坐标，这四个参数其实就是平面方程ax+by+cz+d = 0,最后的投影点坐标与原本点坐标组成一个向量，向量与平面法向平行，一个系数的关系，应该就是单位法向量乘以长度。&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;后面的projptToPlane九四解方程，将点坐标带入到方程里求解距离参数。&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="490" width="363" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

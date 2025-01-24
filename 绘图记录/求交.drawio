@@ -1,0 +1,373 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="第 1 页" id="B6eB50KqpIcPgexsueeT">
+    <mxGraphModel dx="1105" dy="-1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-2" target="-uFoiIGYiD_hoR9tvjSY-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-2" value="SSIsectOp2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-3" value="求交两个几何面实体" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="3300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-5" target="-uFoiIGYiD_hoR9tvjSY-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-5" value="SSICkExact" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="335" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-6" value="解析求解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="354" y="3300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-8" target="-uFoiIGYiD_hoR9tvjSY-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-8" value="MkGeomDivdTbl" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="335" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-9" value="移动几何到实体划分表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="3515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-11" target="-uFoiIGYiD_hoR9tvjSY-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-11" value="IsectSurfSurf" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="335" y="3640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-13" target="-uFoiIGYiD_hoR9tvjSY-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-13" value="SSiCkDegen" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="3640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-14" value="检查是否有退化边" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="3600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-16" target="-uFoiIGYiD_hoR9tvjSY-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-16" value="SSiQuickHunt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="3780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-17" value="使用快速方法搜起点，对于一些特定的曲面类型。这个操作可以避免子划分和关键点搜素，基本上是只处理了圆柱面圆台面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="3790" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-19" target="-uFoiIGYiD_hoR9tvjSY-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-19" value="ZwCrvMarchPtFree" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="3920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-20" value="快速hunt如果失败，删除其结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="3935" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-22" target="-uFoiIGYiD_hoR9tvjSY-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-22" value="SSiHunt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="4060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-23" value="采用ssihunt：在面面求交的march阶段查找起点和关键点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="4060" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-26" target="-uFoiIGYiD_hoR9tvjSY-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-26" target="-uFoiIGYiD_hoR9tvjSY-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-26" value="MkGeomDivdTbl" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="735" y="4060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-27" value="把曲面放到实体表格当中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="4010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-28" value="DivdTblDivdSrf" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="935" y="4060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-30" target="-uFoiIGYiD_hoR9tvjSY-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-30" target="KZRLN6XdLIyN4WiFiYJs-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-30" value="IsectDivideEnts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="735" y="4200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-32" target="-uFoiIGYiD_hoR9tvjSY-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-32" value="InitXPairTbl" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="4200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-33" value="划分子实体准备求交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="4215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-34" value="初始化求交对" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="970" y="4150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-36" target="-uFoiIGYiD_hoR9tvjSY-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-36" value="CSiProcXPair" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="4340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-37" value="检查求交对，决定是否已经准备好进行求交了，准备好了就添加求交对到求交表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="990" y="4355" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-39" target="-uFoiIGYiD_hoR9tvjSY-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-39" value="CSiEntTblDivd" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="4540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-40" value="划分子实体" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="4555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFoiIGYiD_hoR9tvjSY-41" target="KZRLN6XdLIyN4WiFiYJs-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-41" value="CsiSplitXpair" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="4680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFoiIGYiD_hoR9tvjSY-42" value="创建新的求交对" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="4695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-1" value="面面求交：SSIsectOP2&lt;div&gt;先判断是否可以解析求交 VxNrb2SrfPrim,如果可以走平面平面，圆柱面，平面等&lt;/div&gt;&lt;div&gt;失败则普通求交：IsectSurfSurf&lt;/div&gt;&lt;div&gt;1 IsectSurfSurf找极点，好像是通过看uv方向首末端点是否重合决定的，应该就是u min，u max；vmin vmax，u min，v min；u max v max；&lt;/div&gt;&lt;div&gt;2 ssiQuickHunt:使用快速方法查找起始点&lt;/div&gt;&lt;div&gt;3 ssihunt 更加通用的查找&lt;/div&gt;&lt;div&gt;4 mkgeomDivdTbl&amp;nbsp;&lt;/div&gt;&lt;div&gt;5 IsectDivideEnts，划分实体并准备求交&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="3040" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-2" value="CSiProcXpair" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="4820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-4" value="处理已经准备好就行求交的实体对" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="4835" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-5" target="KZRLN6XdLIyN4WiFiYJs-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-5" value="SSiGetInitPt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="735" y="5050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-7" target="KZRLN6XdLIyN4WiFiYJs-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-7" value="SSiGetCSiPts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="935" y="5350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-9" target="KZRLN6XdLIyN4WiFiYJs-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-9" value="SubDivlsect" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="5350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-11" target="KZRLN6XdLIyN4WiFiYJs-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-11" value="CSiProcXpair" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="5350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="5380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-13" value="CSiXPairIsect" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="5350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-15" value="VxCrvIsectSrf" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="5350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-17" value="找到refined 点在面面求交的交线上&lt;div&gt;这一部分看起来都是处理边界了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="5050" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-18" target="KZRLN6XdLIyN4WiFiYJs-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-18" value="SSiGenIsoCrvDefs" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="935" y="5050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-21" value="计算实际的曲线曲面求交情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="855" y="5370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KZRLN6XdLIyN4WiFiYJs-22" target="KZRLN6XdLIyN4WiFiYJs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-22" value="VxIsoDef2NrbCrv" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="935" y="5190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZRLN6XdLIyN4WiFiYJs-25" value="转换iso 描述成为3d曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="855" y="5205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-1" target="kRztmIFaZMiVYnsV_hM5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-1" value="VxCrvCrvIsect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="5760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-2" value="线线求交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="5550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-3" value="首先获取两条曲线的bounding box，判断是否有交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="5660" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-4" target="kRztmIFaZMiVYnsV_hM5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-4" value="IsectGeomsEnts" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="5760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-6" target="kRztmIFaZMiVYnsV_hM5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-6" value="IsectAnalytChk" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="5760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-8" target="kRztmIFaZMiVYnsV_hM5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-8" value="VxIsectCoinChk" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="5900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-10" value="检查两个曲线是否一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="5910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-11" value="比较span是否一致，boundingbox是否一致，几何是否一致：几何是否一致的函数简单对比是否具有一样的控制点和参数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="5915" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-12" target="kRztmIFaZMiVYnsV_hM5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-12" value="MkGeomDivdTbl" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="6040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-14" target="kRztmIFaZMiVYnsV_hM5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-14" value="IsectGeomObjs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-16" value="求交表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="6055" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-17" target="kRztmIFaZMiVYnsV_hM5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-17" value="SubDivIsect" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-19" target="kRztmIFaZMiVYnsV_hM5-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="6500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-19" value="CsiXPairIsect" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="kRztmIFaZMiVYnsV_hM5-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="6500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-21" value="IsectNewtnRefin" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-23" target="kRztmIFaZMiVYnsV_hM5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-23" value="VxCrvIsectCrv" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-25" target="kRztmIFaZMiVYnsV_hM5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-25" value="VxCvIsectCvNewt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-27" target="kRztmIFaZMiVYnsV_hM5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-27" value="CCiAproxNxtPt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-29" value="计算下一3d 点 步长，线性迭代" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="6410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-30" target="kRztmIFaZMiVYnsV_hM5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-30" value="CurUpdateParam" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="6610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-32" value="用求出的点坐标和切向，来求处新的点，基于新的点更新得到新的参数。&lt;div&gt;这个函数就是估计参数域的改变从久的点到新的点，应该是利用了泰勒展开，旧的点和新的点，加上一个点导数，求出这个t值，这个t就是增量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="6570" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-33" target="kRztmIFaZMiVYnsV_hM5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-33" value="ParamStepUpdate2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="6750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-35" value="得到一个更新之后的参数t" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="6765" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-36" value="Eval" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="6890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-38" value="继续计算在新的参数下，曲线上的点和导数。&lt;div&gt;评估新的参数下，两个点之间的距离，距离小于要求的容差，即可标识为得到了正确的结果&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="6900" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-39" target="kRztmIFaZMiVYnsV_hM5-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-39" target="kRztmIFaZMiVYnsV_hM5-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-39" value="CSiEntTblDivd" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-42" target="kRztmIFaZMiVYnsV_hM5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-42" value="IsectDivideGeom" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-44" value="基于曲线的节点向量来进行曲线划分，还有什么别的根据吗？得到一条简单曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="6110" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-45" value="VxNrbExtrct" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-47" value="C_CRV_DIVIDE,类型在指定的参数位置进行曲线分割，&lt;div&gt;在过程中会在参数位置插入节，重复度就是阶数，插入控制点，后面再去分割曲线&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="6055" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-48" target="kRztmIFaZMiVYnsV_hM5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-48" value="CSiProcXPair" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="6470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRztmIFaZMiVYnsV_hM5-51" target="kRztmIFaZMiVYnsV_hM5-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-51" value="CSiSplitXPair" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="6320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-54" value="VxCrvSrfIsect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="6720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-55" value="线面求交，同样也是牛顿迭代：VxCrvIsectSrf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="6640" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-56" value="VxCvIsectSrNewt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="6720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRztmIFaZMiVYnsV_hM5-57" value="基本与曲线曲线的求交是一致的，选取参数，迭代，更新参数最后得到小于容差的值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="6655" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
