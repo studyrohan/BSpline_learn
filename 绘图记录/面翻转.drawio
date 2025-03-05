@@ -1,9 +1,178 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
     <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-1" value="VxFaceInvert" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="490" as="sourcePoint" />
+            <mxPoint x="770" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-4" value="FcIncHoleLoop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-5" value="FcInvPeriloop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-6" value="处理孔loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-7" value="处理外围loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="767" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-8" target="EiTeJBdiOgv_M0S6BQeR-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-8" value="FcInvHoleLoop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-9" target="EiTeJBdiOgv_M0S6BQeR-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-9" value="复制面，复制相应的曲面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-11" target="EiTeJBdiOgv_M0S6BQeR-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-11" value="VxLoopcpy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-13" value="在这个过程中复制preedge和edge，所以会有驱动源和驱动结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="865" y="630" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-14" value="VxLoopRvesDir" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-16" value="逆转loop的方向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-17" target="EiTeJBdiOgv_M0S6BQeR-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-17" value="FcInvPeriloop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-18" value="FtSfInvertGetInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-19" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-20" target="EiTeJBdiOgv_M0S6BQeR-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-20" value="输入有面有loop，要先获取底层的曲面，然后获取loop的所有preedge，对preedge做一个分类，检查preedge是不是一个等参数线。起点触碰参数边界，终点触碰参数边界，在这个过程中处理trimFaceMkUnqiue的输入，构造prefile，出来遍历到的preedge的curve要作为输入以外，还需要手动额去添加curve。个数是naddCurve，拷贝到了输入的最前面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="780" width="255" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-22" target="EiTeJBdiOgv_M0S6BQeR-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-22" value="VxShlMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-23" target="EiTeJBdiOgv_M0S6BQeR-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-3" value="TrimFaceMKUnqwkr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EiTeJBdiOgv_M0S6BQeR-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0071" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-23" value="trmFaceMkUnique" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-25" value="基于之前的曲面数据构造一个新的面，所以新产生的面和原来的底层曲面是一致的。关键是环的位置。在这个过程中创建面，环，半边，边，顶点，创建半边是因为曲面的边界信息都已经存在nurbsurf数据结构中了。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1200" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-27" target="EiTeJBdiOgv_M0S6BQeR-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-27" value="VxSrfToFace" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-29" value="添加曲面到拓扑表中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-30" target="EiTeJBdiOgv_M0S6BQeR-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EiTeJBdiOgv_M0S6BQeR-30" target="EiTeJBdiOgv_M0S6BQeR-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-30" value="VxSrfBndToLoop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-32" value="添加曲面的裁剪边界到拓扑表中，这个函数吹西安了递归，处理profile的next和in，，最开始的参数是profile的loop的list的头节点。如果是顺序遍历的话其实好像也可以，或者我有没看到的地方" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="1320" width="153" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-33" value="更新bounding box" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiTeJBdiOgv_M0S6BQeR-35" value="VxPrfToloop" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-1" value="create a loop pre-edges,edges,vertexs in topology table from a given vsprofile structure&lt;div&gt;经过居于这个角度去思考tracking，基于曲面去创建对应的环，edge，点，edge需要tracking信息，tracking信息从surface的profile中而来，那是不是要建立，index和edge index之间的关联&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="1190" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-2" value="如果不考虑face invert的tracking，单纯的考虑make trim face的tracking呢，&lt;div&gt;是不是可以单纯的去考虑新封装一个接口，因为原来的接口缺少必要的输入，输出是可以去补充的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1573" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-4" target="Y54YwVapdvi8BxMfjMf4-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-9" value="profile的loop为空的情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y54YwVapdvi8BxMfjMf4-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-4" target="Y54YwVapdvi8BxMfjMf4-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-4" value="VxTrmFaceMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-5" target="Y54YwVapdvi8BxMfjMf4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-5" value="VxFaceMk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="915" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-7" value="VxUnTrimSrfTolp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="915" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-10" target="Y54YwVapdvi8BxMfjMf4-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-10" value="VxTrmBndToLp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-12" target="Y54YwVapdvi8BxMfjMf4-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-12" value="VxTrmBndToLp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y54YwVapdvi8BxMfjMf4-14" target="Y54YwVapdvi8BxMfjMf4-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-14" value="VxSrfToFace" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="2060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y54YwVapdvi8BxMfjMf4-16" value="VxFaceAddLoop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M3yiznDpTWlrdjIROgbP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3yiznDpTWlrdjIROgbP-1" target="M3yiznDpTWlrdjIROgbP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M3yiznDpTWlrdjIROgbP-1" value="FtCrTrimPln" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3yiznDpTWlrdjIROgbP-2" value="裁剪面构建：特征命令&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3yiznDpTWlrdjIROgbP-3" target="wQc-GK75rHIwKSFoHFRX-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M3yiznDpTWlrdjIROgbP-3" value="VxCvsMkPlnSf" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3yiznDpTWlrdjIROgbP-5" value="同一个平面的边界曲线，要求在一个平面&lt;div&gt;，输出可能有数个面，输出是xref&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-1" target="wQc-GK75rHIwKSFoHFRX-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2_bLOjA-5yFdcsXpPj5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQc-GK75rHIwKSFoHFRX-1" target="X2_bLOjA-5yFdcsXpPj5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-1" value="VxCkCvsCoPln" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-3" value="如果用户输入有曲线所在的平面，就跳过，不然就通过下面的函数查询到面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="955" y="200" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-4" target="wQc-GK75rHIwKSFoHFRX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-4" value="VxGtCvsLsPln" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-6" value="try and find 最小二乘的平面通过点，先看控制点是不是在一个平面上，如果控制点都不在一个平面上，那么曲线肯定不在一个平面上，这里是判断曲线是不是共线，共面。所以他觉得曲线的控制点共面了，曲线就是共面的，应该是这样的，曲线坐落在控制点的凸包之内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="706.25" y="440" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-8" target="wQc-GK75rHIwKSFoHFRX-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-8" value="VxPrjBoxInfPln" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-11" value="基于前面的平面数据构建一个平面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="835" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-12" target="wQc-GK75rHIwKSFoHFRX-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-12" target="wQc-GK75rHIwKSFoHFRX-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-12" value="VxCvsPrjPlnPrf" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-14" value="投影3d曲线到平面上获取裁剪环，生成的裁剪环和之前的平面一起作为下一步的输入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="790" y="720" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-15" target="wQc-GK75rHIwKSFoHFRX-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-15" value="TrmFaceMkUnique" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-17" value="构建裁剪面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="865" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-18" target="wQc-GK75rHIwKSFoHFRX-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-18" value="VxFaceRework" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-20" value="rework 面，基于边重新构造面，输入仅仅是拓扑边和其面的xref" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="805" y="990" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-21" target="wQc-GK75rHIwKSFoHFRX-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-21" value="ShlMkDistinct" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-23" value="VxShpUnshareSfs" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-25" target="wQc-GK75rHIwKSFoHFRX-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-30" value="投影 曲线的控制点都投影到曲面上" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wQc-GK75rHIwKSFoHFRX-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.2769" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-25" value="crv2UvOnSfPln" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-27" value="基于平面的第123 个控制点确认了uv方向，第而个确认u第一个第三个确认v方向，叉乘得到法向。同时确定uv方向的span，幅值，容差。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-28" target="wQc-GK75rHIwKSFoHFRX-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-28" value="ProjPntOnPlane" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-33" value="把投影点，按照比例uv值，计算到uv空间 0-1的范围" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="620" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wQc-GK75rHIwKSFoHFRX-34" target="wQc-GK75rHIwKSFoHFRX-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-34" value="RefCrv2SrfBnds" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-36" value="创建uv空间的曲线，其节点向量，阶数都和三维空间中的曲线一致，仅有控制点不一致" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="1000" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-38" value="给定一个shell列表，包含一个没有组织好的face，构建一个新的shell让kee faces和他相连" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="1125.5" width="142.5" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-39" value="让面的使用合理，组织面对应的曲面被超过一个shell所使用，逻辑好像也很简单，遍历面，然后去看面的引用技术是否到了2，到了2收集，后续去移除相同的引用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="767.5" y="1285" width="142.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQc-GK75rHIwKSFoHFRX-40" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;只要NURBS曲线的所有控制点共面，无论权重、节点矢量或次数如何，曲线本身必然位于同一平面。这是由NURBS的数学定义和仿射组合的几何性质共同决定的。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="290" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2_bLOjA-5yFdcsXpPj5-1" value="CkPtList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
