@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-1" target="gFtl9yLH4QGsgzcVb07t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-1" value="CdSrfNrmlPln" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-2" target="gFtl9yLH4QGsgzcVb07t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-2" value="VxCvNrmThruPln" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-4" value="输入一个曲线，一个offset距离，相对面的角度，获取一个新的曲面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-6" target="gFtl9yLH4QGsgzcVb07t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-6" value="VxNrbMkSrf" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-9" value="还是这个通用的算法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-10" target="gFtl9yLH4QGsgzcVb07t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-10" value="MkExtrudedSrf" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-12" target="gFtl9yLH4QGsgzcVb07t-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-12" value="MkExtrudedSrf" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-15" value="沿着法向对输入曲线进行偏移" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gFtl9yLH4QGsgzcVb07t-16" target="gFtl9yLH4QGsgzcVb07t-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-16" value="MkRuledSf" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-18" value="基于两条曲线进行ruled surface" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-19" value="LoftNCompatCurv" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-21" value="基于放样来做一个曲线，后面值得看看" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gFtl9yLH4QGsgzcVb07t-22" value="~CdMdActNrmlPln 启动该命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
