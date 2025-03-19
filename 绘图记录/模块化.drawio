@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="f_Cb5VlLnez2maRBX4Lm">
-    <mxGraphModel dx="1235" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2190" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,83 +28,92 @@
         <mxCell id="rpB2ZYqjqnMj_a1iEPtX-9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;目标：内核融合对底层ZW3D模块 进行改造，目的让模块化更加清晰。&lt;/div&gt;&lt;div&gt;现状：部分属于内核的代码数据ftr层。内核包装单独的api需要部分feature层的功能才能完整。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="310" width="130" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.288;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u5SWkrFzs9IcwBLgA2S5-7" target="u5SWkrFzs9IcwBLgA2S5-11">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.288;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-7" target="u5SWkrFzs9IcwBLgA2S5-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-7" value="Iinterface" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-7" value="Iinterface" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="300" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-17" target="u5SWkrFzs9IcwBLgA2S5-11" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-17" target="u5SWkrFzs9IcwBLgA2S5-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="485" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-11" target="u5SWkrFzs9IcwBLgA2S5-12" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-11" target="u5SWkrFzs9IcwBLgA2S5-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-11" value="ZwOverdrive+部分feature层代码(直接拷贝而来）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-11" value="ZwOverdrive+部分feature层代码(直接拷贝而来）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="550" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-12" value="Appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-12" value="Appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="700" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u5SWkrFzs9IcwBLgA2S5-15">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-15" value="cad" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-15" value="cad" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="300" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-17" value="Ftr（代码保持不变）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-17" value="Ftr（代码保持不变）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="425" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.288;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-19" target="u5SWkrFzs9IcwBLgA2S5-22" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.288;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-19" target="u5SWkrFzs9IcwBLgA2S5-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1060" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-19" value="Iinterface" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-19" value="Iinterface" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="310" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-26" target="u5SWkrFzs9IcwBLgA2S5-22" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-26" target="u5SWkrFzs9IcwBLgA2S5-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-22" target="u5SWkrFzs9IcwBLgA2S5-23" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-22" target="u5SWkrFzs9IcwBLgA2S5-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-22" value="ZwOverdrive+部分feature层代码融入overdrive或者下沉到appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-22" value="ZwOverdrive+部分feature层代码融入overdrive或者下沉到appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="560" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-23" value="Appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-23" value="Appl" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="710" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="u5SWkrFzs9IcwBLgA2S5-25" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u5SWkrFzs9IcwBLgA2S5-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-25" value="cad" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-25" value="cad" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="310" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-26" value="Ftr（删除应该属于内核的代码）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-26" value="Ftr（删除应该属于内核的代码）" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="435" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-27" value="当前modeller，作为interface和overdrive的转接层应该仅仅处理数据转换不直接建模，类似已经合并到项目分支的圆角功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-27" value="当前modeller，作为interface和overdrive的转接层应该仅仅处理数据转换不直接建模，类似已经合并到项目分支的圆角功能" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="570" width="196" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-28" value="当前阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-28" value="当前阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-29" value="阶段1：通过内核融合项目解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-29" value="阶段1：通过内核融合项目解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="210" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u5SWkrFzs9IcwBLgA2S5-30" value="阶段2：内核融合之后单独立项解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="u5SWkrFzs9IcwBLgA2S5-30" value="阶段2：内核融合之后单独立项解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XOJtq3H9i5yzXz9xJNTa-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;一个放样的流程，见放样的uml图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="960" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KfmUL3DyoYTOCkQI3khf-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;我们只有放样、扫掠、偏移有ftr层代码的拷贝&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="950" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KfmUL3DyoYTOCkQI3khf-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;vxtopopr被外部模块试用&lt;br&gt;ftr的部分代码应该下移到overdrive层。&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="210" width="330" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

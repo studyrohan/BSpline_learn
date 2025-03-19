@@ -1,0 +1,271 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="noKRLqwYjJ5FsBkZodus-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="noKRLqwYjJ5FsBkZodus-1" target="noKRLqwYjJ5FsBkZodus-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-1" value="CdFcExt2UtilAct" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-2" value="面延申" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="noKRLqwYjJ5FsBkZodus-3" target="noKRLqwYjJ5FsBkZodus-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-3" value="Loc_FcExt2GetInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-5" value="获取输入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="noKRLqwYjJ5FsBkZodus-6" target="noKRLqwYjJ5FsBkZodus-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-6" value="基于选项进行拷贝面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="noKRLqwYjJ5FsBkZodus-8" target="1p5-gOFzWiG01Fi2R5Ht-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="noKRLqwYjJ5FsBkZodus-8" target="1p5-gOFzWiG01Fi2R5Ht-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-8" value="Loc_FaceExplode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="790" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-10" value="把面从shell中炸开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="805" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-11" value="VxShellExtend" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noKRLqwYjJ5FsBkZodus-12" value="VxFaceExtend" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-1" target="1p5-gOFzWiG01Fi2R5Ht-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-1" value="VxSphereExtend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="930" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-3" target="1p5-gOFzWiG01Fi2R5Ht-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-3" value="BrokenTopoSplitExtendedFace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1070" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-5" target="1p5-gOFzWiG01Fi2R5Ht-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-5" value="VxShlsRmSelfx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-7" value="移除自交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-8" value="VxShlSew" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-10" value="缝合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1348" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-11" value="如果分裂，且是sphere类型的面的话" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="928" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-12" value="VxFaceExplode" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-15" target="1p5-gOFzWiG01Fi2R5Ht-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-15" value="曲面延申&lt;div&gt;CdFcExt2UtilAct&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2308" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-18" target="1p5-gOFzWiG01Fi2R5Ht-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-18" value="Loc_FaceExplode" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-19" value="输入为面和边，遍历边上的所有半边，添加属性，数值值为边的tag&lt;div&gt;2VxFaceExplode&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2240" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VxFaceExplode&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1创建一个新的shell，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2获取face的一系列边&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;3VxFaceMoveShell,把explod face移动到新的shell中，计算新shell的boundingbox&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;4分裂面上的边进行分裂，一份边给原来的shell，一份给新的shell，同时赋值边的几何。但是共享之前的顶点，处理半边，半边的数量应该是不需要增加的&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;5重建边的几何VxEdgRebuildCrv&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;VxEdgRebuildCrvd的过程，获取曲面，获取边上的uv线，VxCrvUvtoNrb,从uv曲线构造3d曲线，调整方向&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;6分裂顶点，更新新申城的边上的顶点&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;VxCrvUvtoNrb 我们的场景很简单，没有去计算，直接用的等参数线，而且等参数线就在曲面的边界上，可以直接用曲面边界的控制点&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2400" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-22" target="1p5-gOFzWiG01Fi2R5Ht-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-22" value="如果explode成功了，记录炸开的shell，一会儿要缝合处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-24" target="1p5-gOFzWiG01Fi2R5Ht-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-24" value="VxFaceExtend" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-25" value="extend wtithout change loop topology" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-26" value="基于一个面和边与给定的延申距离，去延申曲面，如果距离为负数，缩减曲面。如果需要，底层曲面会自动延申&lt;div&gt;输入面不能够和任何拓扑面相连。&lt;/div&gt;&lt;div&gt;输入面的底层曲面会被延申后的曲面所改变&lt;/div&gt;&lt;div&gt;延申的方式，线性延申，圆弧类型的延申&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2420" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-28" target="1p5-gOFzWiG01Fi2R5Ht-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-28" value="VxShlsRmSelfX" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="2293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-29" value="移除自交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="2250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-30" value="VxShlSew" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-31" value="缝合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="2250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-32" value="VxFaceExtend" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-34" target="1p5-gOFzWiG01Fi2R5Ht-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-34" value="获取边的曲线和3D曲面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2820" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-36" target="1p5-gOFzWiG01Fi2R5Ht-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-36" value="XsfMapEdgToLp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-37" value="映射边到3D曲线上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-40" target="1p5-gOFzWiG01Fi2R5Ht-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-40" target="1p5-gOFzWiG01Fi2R5Ht-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-40" value="XsfCkCvOff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-41" value="扩展末端的偏移，以防止我们有一个复杂的offset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2750" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-43" target="1p5-gOFzWiG01Fi2R5Ht-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-43" value="VxNrbModGeom" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-44" value="按照指定的方法修改几何" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-46" target="1p5-gOFzWiG01Fi2R5Ht-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-46" value="VxSrfExtension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-47" value="线性延申，reflect，恒定曲率延申" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-50" target="1p5-gOFzWiG01Fi2R5Ht-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-50" target="1p5-gOFzWiG01Fi2R5Ht-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-50" value="static_Extend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-51" value="CrvExtndLinear" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="3140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-52" value="详情见曲线曲面算法,对面的边界线进行线性延申" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="3090" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-54" target="1p5-gOFzWiG01Fi2R5Ht-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-54" value="chk_isect" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-55" value="检查延申出来的线进行求交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-56" value="SrfFromCpRows" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-57" value="rubuild surface from extend cp rows/cols;&lt;div&gt;组装uv节点向量 和一个网格类型的控制顶点，&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="2893" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-59" target="1p5-gOFzWiG01Fi2R5Ht-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-59" value="VxTrimSrfExt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-60" value="裁剪面的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-62" target="1p5-gOFzWiG01Fi2R5Ht-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-62" value="TrimSrfExt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-63" value="OffsefCrvOnSrf" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-64" value="在一个曲面上偏移一条曲线，偏移额方向是曲面的法向叉乘曲线的切向&lt;div&gt;首先利用曲面上的曲线离散化一些列的点CrvDiscretizeII&lt;/div&gt;&lt;div&gt;随后偏移这一系列的点，offsetPtsOnSrf&lt;/div&gt;&lt;div&gt;拟合uv点成为曲面上的曲线，这个过程同样不会改变整个曲面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="3240" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1p5-gOFzWiG01Fi2R5Ht-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="3420" as="sourcePoint" />
+            <mxPoint x="1550" y="3500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-66" value="FixOffsetUvCrvOnSrf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="3507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-67" value="输入是前面的uv线和后面的uv线，加上本身的uv线，本身的曲面作为输入/输出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="3530" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-68" value="OffCvJoinAdjCrv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="3650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="3810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1554.5" y="3567" as="sourcePoint" />
+            <mxPoint x="1554.5" y="3654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1554.5" y="3720" as="sourcePoint" />
+            <mxPoint x="1554.5" y="3807" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-72" value="连接当前曲线和前面的uv曲线，连接当前曲线和后面的uv曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="3665" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1p5-gOFzWiG01Fi2R5Ht-73" value="延申一个曲面的整体逻辑&lt;div&gt;1 输入一个曲面和一条边&lt;/div&gt;&lt;div&gt;2把边相邻的两个边首先进行延申&lt;/div&gt;&lt;div&gt;3延申选中的边，构造新的二维边&lt;/div&gt;&lt;div&gt;4基于新产生的二维边和前面的 后面的二维边进行拼接，借此改变了曲面的边界数据&lt;/div&gt;&lt;div&gt;（在这个过程中，原来是裁剪曲面可能就本身曲面并没有发生改变，也可能曲面发生了延申，如果是非裁剪曲面，对调用VxNrbModGeom 对底层曲面进行延伸类型的修改）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2940" width="370" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
