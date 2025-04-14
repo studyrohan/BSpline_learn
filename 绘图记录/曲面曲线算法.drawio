@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram id="gTmY0eY7MNqRI-HBbe0g" name="第 1 页">
-    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="940" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,83 +118,89 @@
         <mxCell id="CiVL7Hzyp7ioaFv0ih2X-16" value="新的曲线，控制点个数为之前所有曲线的控制点个数之和-曲线个数n，最后加1，阶数为之前得到的最高阶数，即可得出节点向量，直接拷贝所有线段的节向量，注意保证两端节点向量n的重复度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="3210" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-2" target="tVM19ylw0ege2GQq-vGk-4">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-2" target="tVM19ylw0ege2GQq-vGk-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VxNrbModGeom&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VxNrbModGeom&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-3" value="曲面的延伸，纯几何操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-3" value="曲面的延伸，纯几何操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="3520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-4" target="tVM19ylw0ege2GQq-vGk-6">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-4" target="tVM19ylw0ege2GQq-vGk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VxNrbModGeom&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VxNrbModGeom&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="685" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-6" target="tVM19ylw0ege2GQq-vGk-8">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-6" target="tVM19ylw0ege2GQq-vGk-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-6" value="VxSrfExtension" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-6" value="VxSrfExtension" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="885" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-8" target="tVM19ylw0ege2GQq-vGk-10">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-8" target="tVM19ylw0ege2GQq-vGk-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-8" value="SrfExtractCpRow" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-8" value="SrfExtractCpRow" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1085" y="3570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-10" target="tVM19ylw0ege2GQq-vGk-12">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-10" target="tVM19ylw0ege2GQq-vGk-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-10" target="tVM19ylw0ege2GQq-vGk-24">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-10" target="tVM19ylw0ege2GQq-vGk-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-10" value="static_Extend" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-10" value="static_Extend" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1085" y="3710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-12" target="tVM19ylw0ege2GQq-vGk-14">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-12" target="tVM19ylw0ege2GQq-vGk-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-12" value="chk_isect" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-12" value="chk_isect" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1085" y="3850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-14" target="tVM19ylw0ege2GQq-vGk-16">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-14" target="tVM19ylw0ege2GQq-vGk-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-14" value="srfFromCpRows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-14" value="srfFromCpRows" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1085" y="3990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-16" target="tVM19ylw0ege2GQq-vGk-19">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-16" target="tVM19ylw0ege2GQq-vGk-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-16" value="MkCvsCompat" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-16" value="MkCvsCompat" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1285" y="3990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-18" value="让曲线变得compatible，即为曲线具有相同的阶数和节向量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-18" value="让曲线变得compatible，即为曲线具有相同的阶数和节向量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1270" y="3940" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVM19ylw0ege2GQq-vGk-19" target="tVM19ylw0ege2GQq-vGk-22">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tVM19ylw0ege2GQq-vGk-19" target="tVM19ylw0ege2GQq-vGk-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-19" value="ReparmCurve01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-19" value="ReparmCurve01" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1285" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-21" value="重新参数化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-21" value="重新参数化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="1181" y="4140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-22" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-22" value="构造一个新的曲面，把原来曲面的控制点拷贝进去，把线的控制点也拷贝进去" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1285" y="4270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-24" value="CdExtndLinear" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-24" value="CdExtndLinear" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1285" y="3710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-26" value="做边界线的线性延伸" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tVM19ylw0ege2GQq-vGk-26" value="做边界线的线性延伸" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="920" y="3725" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tVM19ylw0ege2GQq-vGk-27" value="这里还没太看懂，基于线去做面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="885" y="3988" width="190" height="30" as="geometry" />
+        <mxCell id="tVM19ylw0ege2GQq-vGk-27" value="用延申出来的曲线，加上&lt;div&gt;原本的曲面，参数延申方法&lt;/div&gt;&lt;div&gt;来构建这个延申曲面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="895" y="3973" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5eqf36uc9aqIG02kQwn-1" value="VxSrfsEvalCont" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5eqf36uc9aqIG02kQwn-2" value="判断两个平面的连续情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="4528" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

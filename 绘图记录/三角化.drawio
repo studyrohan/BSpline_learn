@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="954" dy="-611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j1OsWh6CuMfBG_Sv2i0j-1" target="j1OsWh6CuMfBG_Sv2i0j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-1" value="VxFaceFacet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-2" value="三角化的过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1698" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j1OsWh6CuMfBG_Sv2i0j-3" target="j1OsWh6CuMfBG_Sv2i0j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-3" value="GenPreEdgEvents" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j1OsWh6CuMfBG_Sv2i0j-5" target="j1OsWh6CuMfBG_Sv2i0j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-5" value="SamplePntAtEdgePnt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-7" value="基于边去采采样，输入是曲面，二维的曲线，edge的参数，其过程是先投影，在计算投影点参数对应的preedge上的点，然后再计算曲面上的三维点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1620" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-8" value="投影的过程中直接出现了错误，二维曲线计算出来的参数点，超过了曲面v方向上的参数域，猜测是曲线上二维线的坐标值出了问题&lt;div&gt;发生问题的地方是face 0,1207&lt;/div&gt;&lt;div&gt;predge 共6个，下标2&lt;/div&gt;&lt;div&gt;输入面是0，1204&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1810" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j1OsWh6CuMfBG_Sv2i0j-9" target="j1OsWh6CuMfBG_Sv2i0j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-9" value="VxPntOnCrvPrj" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-11" value="VxCrvOnSrfEvalGeom" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1690" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

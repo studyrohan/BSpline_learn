@@ -1,0 +1,139 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="940" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="48JCw_21CysS1-TrN_gO-7" value="检查并且简化平面通过合并相邻的平面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="328" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T1iFM9B9spnHlJ45qVsO-2" value="学习算法的一点小技巧&lt;div&gt;抓住主线，看遍文档，记录主流程。&lt;/div&gt;&lt;div&gt;做一个简单的案例，自己去猜测这个算法是什么样子的，然后去看&lt;/div&gt;&lt;div&gt;是否符合自己的猜测，有什么洋的遗漏，然后把整个穿起来&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="565" y="338" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-1" target="VS1XtnFByjUHC0LRvIXr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CdAllMoveEO&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-4" target="VS1XtnFByjUHC0LRvIXr-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CdMoveEchoEnts&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-6" target="VS1XtnFByjUHC0LRvIXr-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;FaceGetGroups&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-8" target="VS1XtnFByjUHC0LRvIXr-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;FtTwkIterMoveFcs&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-10" target="VS1XtnFByjUHC0LRvIXr-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;FtTwkMoveFcs&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-12" target="VS1XtnFByjUHC0LRvIXr-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-12" value="AddMoreFaces" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-14" target="VS1XtnFByjUHC0LRvIXr-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-14" value="FindAll2NeighboringFacesAndEdges" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="950" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-16" target="VS1XtnFByjUHC0LRvIXr-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-16" value="FtTwkAddFilletsToSection" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-18" value="add the fillet faces that border the given faces to&lt;div&gt;the list if DE&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1110" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-19" target="VS1XtnFByjUHC0LRvIXr-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-19" value="FtTwkBndryFllts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-21" value="获取边界圆角存储信息以&lt;div&gt;便于后面去冲重新生成圆角&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="1250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-22" target="VS1XtnFByjUHC0LRvIXr-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-22" value="FtTwkMarkMovingFcs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-24" target="VS1XtnFByjUHC0LRvIXr-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-24" value="DEFlltChnsMk" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-26" target="VS1XtnFByjUHC0LRvIXr-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-26" value="DEFlltPatchesMk" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-28" target="VS1XtnFByjUHC0LRvIXr-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsJ3TZ_onbfIoLI0j23g-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VS1XtnFByjUHC0LRvIXr-28" target="YsJ3TZ_onbfIoLI0j23g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-28" value="VxFcLstExplode" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-30" value="把面炸开，这里是输入面加上刚刚&lt;div&gt;便利到的圆角面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1141" y="2090" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-31" value="VxFaceMoveShell" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-33" target="VS1XtnFByjUHC0LRvIXr-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-33" value="FtTwkMarkOpenEdges" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-36" value="mark the already open edges that&amp;nbsp;&lt;div&gt;border the faces being copied&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="1813" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VS1XtnFByjUHC0LRvIXr-37" target="VS1XtnFByjUHC0LRvIXr-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-37" value="FtTwkBndryEdges" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VS1XtnFByjUHC0LRvIXr-40" value="get the list of edges that are being&amp;nbsp;&lt;div&gt;ripped apart so that we can move&lt;/div&gt;&lt;div&gt;the faces&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="1923" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsJ3TZ_onbfIoLI0j23g-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsJ3TZ_onbfIoLI0j23g-1" target="YsJ3TZ_onbfIoLI0j23g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsJ3TZ_onbfIoLI0j23g-1" value="OdTwkSmartTopSolver" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="2230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsJ3TZ_onbfIoLI0j23g-3" value="ODDEFlltChnFllt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="2370" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsJ3TZ_onbfIoLI0j23g-5" value="重做圆角" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="2388" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
