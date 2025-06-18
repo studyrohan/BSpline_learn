@@ -1,0 +1,183 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="932" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zrFiEytQhiwJgmweyQKi-1" value="偏置特征层命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="55" y="158" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-2" target="zrFiEytQhiwJgmweyQKi-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-2" value="CdCrvOffset" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-3" value="两种偏置方式，法向偏置和距离偏置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-4" target="zrFiEytQhiwJgmweyQKi-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-4" value="CdCrvOffNrm" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-6" target="zrFiEytQhiwJgmweyQKi-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-10" value="offset the input curve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zrFiEytQhiwJgmweyQKi-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.075" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-6" value="VxNrbMkCrv" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-8" target="zrFiEytQhiwJgmweyQKi-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-8" target="zrFiEytQhiwJgmweyQKi-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-8" value="Cv2OffsetMain" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-11" value="ReparmCurve01" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-13" target="zrFiEytQhiwJgmweyQKi-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-13" value="OffsetCrvBrute" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="940" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-15" value="一个野蛮的算法去计算一个偏移曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="920" y="188" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-17" target="zrFiEytQhiwJgmweyQKi-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-17" value="VxCrvGetCusps" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-19" value="捕捉我们不能偏移的尖点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-20" target="zrFiEytQhiwJgmweyQKi-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-20" value="CrvDiscretizeII" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-22" value="离散化曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-23" target="zrFiEytQhiwJgmweyQKi-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-23" target="zrFiEytQhiwJgmweyQKi-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-23" value="Loc_OffsetCrvPnts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-25" value="偏移离散的点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="525" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-26" target="zrFiEytQhiwJgmweyQKi-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-26" value="Loc_RemoveDuplicatePnts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-29" value="移除冗余的点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="678" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrFiEytQhiwJgmweyQKi-30" target="zrFiEytQhiwJgmweyQKi-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-30" value="Loc_SplitListAtCurvatureDiscont" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="800" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-32" value="在曲率不连续的地方&lt;div&gt;分裂列表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="950" y="810" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-33" value="OffsetGetPntInfo" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-35" value="计算点在曲线上的曲率，&lt;div&gt;计算曲率半径，根据一阶导数，二阶导数计算曲率和方向&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="443" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrFiEytQhiwJgmweyQKi-36" target="8HanltoAnSsxYnGMQ4C3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-36" value="Loc_FindCorners" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrFiEytQhiwJgmweyQKi-38" value="对于创建了偏移曲线的&lt;div&gt;一系列点，我们搜跨过曲率&lt;/div&gt;&lt;div&gt;半径的点，这些点的位置可能c&lt;/div&gt;&lt;div&gt;存在一个蝴蝶结&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="935" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-1" target="8HanltoAnSsxYnGMQ4C3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-1" value="Loc_CleanUpEndsOfLists" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1080" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-3" target="8HanltoAnSsxYnGMQ4C3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-3" value="Loc_CleanUpEndsOfLists" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-5" value="take the list of point lists and make some curves" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-6" target="8HanltoAnSsxYnGMQ4C3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-6" target="8HanltoAnSsxYnGMQ4C3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-6" value="Loc_makeCrv" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-8" value="CrvOffSetValid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-10" target="8HanltoAnSsxYnGMQ4C3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-10" value="Loc_MakeCrvFromPoints" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-12" target="8HanltoAnSsxYnGMQ4C3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-12" value="MKOpenAugKnot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-14" value="determine a good knot vector，怎么去确认节向量呢，基于的参数值，最大节点值，切向和曲率，在没有曲率和切向的情况下，就是阶数前n+1 个节向量是0，后面就是取n个参数，然后取一个平均值，设置成，成节向量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1240" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8HanltoAnSsxYnGMQ4C3-15" target="8HanltoAnSsxYnGMQ4C3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-15" value="PntDerivInterpOpen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-17" value="interpolate offset points to get data dense curve。基于参数，节向量，点的坐标，拟合方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1490" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-19" value="给定一系列点，&lt;div&gt;拟合一条曲线，信息包括点坐标，参数&lt;/div&gt;&lt;div&gt;还可能有导数的存在&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="1285" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-20" value="CrvInterp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8HanltoAnSsxYnGMQ4C3-23" value="基于阶数，节点数，节向量，可以算出来nurbs曲线，拟合&lt;div&gt;涉及到矩阵的求解&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1443" width="330" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

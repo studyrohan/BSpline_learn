@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
-    <mxGraphModel dx="1735" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-12" target="E7HCygTMUPkI3ZFFRuIT-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-7" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E7HCygTMUPkI3ZFFRuIT-16">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-7" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E7HCygTMUPkI3ZFFRuIT-16" vertex="1" connectable="0">
           <mxGeometry x="-0.0488" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -112,7 +112,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-15" target="E7HCygTMUPkI3ZFFRuIT-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-8" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E7HCygTMUPkI3ZFFRuIT-19">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-8" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E7HCygTMUPkI3ZFFRuIT-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1679" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -126,7 +126,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-18" target="E7HCygTMUPkI3ZFFRuIT-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-9" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E7HCygTMUPkI3ZFFRuIT-21">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-9" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E7HCygTMUPkI3ZFFRuIT-21" vertex="1" connectable="0">
           <mxGeometry x="-0.144" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -171,7 +171,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-29" value="调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1420" y="978" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E7HCygTMUPkI3ZFFRuIT-31" target="iRFBhF3S64qLbYSa44FG-1">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-31" target="iRFBhF3S64qLbYSa44FG-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-31" value="内核放样函数，即被zw3d所需要同时被独立内核api所需要" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -183,7 +183,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-40" target="E7HCygTMUPkI3ZFFRuIT-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-5" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E7HCygTMUPkI3ZFFRuIT-39">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-5" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E7HCygTMUPkI3ZFFRuIT-39" vertex="1" connectable="0">
           <mxGeometry x="-0.0603" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -194,7 +194,7 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E7HCygTMUPkI3ZFFRuIT-42" target="E7HCygTMUPkI3ZFFRuIT-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-6" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E7HCygTMUPkI3ZFFRuIT-41">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-6" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E7HCygTMUPkI3ZFFRuIT-41" vertex="1" connectable="0">
           <mxGeometry x="-0.431" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -214,19 +214,50 @@
         <mxCell id="E7HCygTMUPkI3ZFFRuIT-48" value="Ftr与overdrive相混合" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="900" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iRFBhF3S64qLbYSa44FG-1" target="E7HCygTMUPkI3ZFFRuIT-40">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iRFBhF3S64qLbYSa44FG-1" target="E7HCygTMUPkI3ZFFRuIT-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-4" value="子函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iRFBhF3S64qLbYSa44FG-3">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-4" value="子函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iRFBhF3S64qLbYSa44FG-3" vertex="1" connectable="0">
           <mxGeometry x="0.1832" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-1" value="放样函数（overdrive）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-1" value="放样函数（overdrive）" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1485" y="1225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iRFBhF3S64qLbYSa44FG-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;我们只有放样、扫掠、偏移有ftr层代码的拷贝&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iRFBhF3S64qLbYSa44FG-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;我们只有放样、扫掠、偏移有ftr层代码的拷贝&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="790" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="00DkCzPNAdXqu5JibgCd-3" target="00DkCzPNAdXqu5JibgCd-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-2" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="00DkCzPNAdXqu5JibgCd-1">
+          <mxGeometry x="-0.0603" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00DkCzPNAdXqu5JibgCd-3" target="00DkCzPNAdXqu5JibgCd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-3" value="scanLftINp1（overdrive）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="1225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="00DkCzPNAdXqu5JibgCd-6" target="00DkCzPNAdXqu5JibgCd-7" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-5" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="00DkCzPNAdXqu5JibgCd-4">
+          <mxGeometry x="-0.431" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-6" value="vxLoftCnLnDflt（nurbs）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-7" value="SplitCcdPrfAtCnln（nurbs）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00DkCzPNAdXqu5JibgCd-8" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2345" y="1225" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

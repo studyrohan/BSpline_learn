@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram id="gTmY0eY7MNqRI-HBbe0g" name="第 1 页">
-    <mxGraphModel dx="940" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="933" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,11 +196,142 @@
         <mxCell id="tVM19ylw0ege2GQq-vGk-27" value="用延申出来的曲线，加上&lt;div&gt;原本的曲面，参数延申方法&lt;/div&gt;&lt;div&gt;来构建这个延申曲面&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="895" y="3973" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r5eqf36uc9aqIG02kQwn-1" value="VxSrfsEvalCont" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="r5eqf36uc9aqIG02kQwn-1" value="VxSrfsEvalCont" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="4510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r5eqf36uc9aqIG02kQwn-2" value="判断两个平面的连续情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="r5eqf36uc9aqIG02kQwn-2" value="判断两个平面的连续情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="950" y="4528" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-1" target="e5o-8I9YUxHGp2D_Dwya-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-1" value="判断一个面是否是圆柱面或者圆锥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="4670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-2" target="e5o-8I9YUxHGp2D_Dwya-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-2" value="VxSrfIsCylOrConeGeom" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="885" y="4670" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-5" target="e5o-8I9YUxHGp2D_Dwya-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-5" value="以曲面参数域的中间值为基准，抽取uv等参数线" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1122.5" y="4670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-7" target="e5o-8I9YUxHGp2D_Dwya-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-7" target="e5o-8I9YUxHGp2D_Dwya-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-7" value="判断uv线哪一个是圆弧线VxCrvIsArc2,借此判断哪个是圆弧方向，哪个是线性方向" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1122.5" y="4810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-9" target="e5o-8I9YUxHGp2D_Dwya-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-9" value="测试所有的线性方向 是不是都是直线，做法是基于节点向量的值去采样，检查等参数线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1098.75" y="4960" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-11" value="要确认是不是直线，还要确认直&lt;div&gt;线方向和圆弧法向是不是平行&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="910" y="4950" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-12" target="e5o-8I9YUxHGp2D_Dwya-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-12" value="测试圆弧方向的等参数线是不是都是圆弧" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1122.5" y="5100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-14" value="在测试的过程中等参数线的半径，如果半径大小一致就是圆柱" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1122.5" y="5240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-18" target="e5o-8I9YUxHGp2D_Dwya-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-18" value="先做一个快速的检查，阶数小于2，或者控制点小于3，肯定不是" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="4810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-20" target="e5o-8I9YUxHGp2D_Dwya-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-20" value="判断一个面是孔还是圆柱&lt;div&gt;LocFaceIsHole&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="5550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-21" target="e5o-8I9YUxHGp2D_Dwya-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-21" target="n6H9abtczMPY-dAjAzDS-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-21" value="GetRevSrfAxis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="805" y="5550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-23" value="获取输入曲面的轴向，如果曲面是一个拉伸曲面，&lt;div&gt;尝试把他转换为圆柱获取他的轴线&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="740" y="5485" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-24" target="e5o-8I9YUxHGp2D_Dwya-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-24" value="CylinderGeom" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="805" y="5970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-26" value="获取半径，轴向，底面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="5985" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-27" target="e5o-8I9YUxHGp2D_Dwya-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-27" value="找参数值应该是找圆弧线，上的两个参数点，计算位置及法向" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="805" y="6110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-29" value="计算法向，然后求两个点，顶点 法向组成的线的交点，和最初的点看角度，决定是圆柱还是孔洞" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="785" y="6255" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-31" target="e5o-8I9YUxHGp2D_Dwya-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-31" value="检查在不在一个平面内，不在一个平面内，肯定不是圆弧" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="4950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-33" value="基于曲率变化来判断是否是圆弧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="4818" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e5o-8I9YUxHGp2D_Dwya-34" target="e5o-8I9YUxHGp2D_Dwya-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-39" value="如果是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="e5o-8I9YUxHGp2D_Dwya-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-34" value="采样，基于采样点算曲率" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="5090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5o-8I9YUxHGp2D_Dwya-36" value="努力去拟合这个圆弧" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="5230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-1" value="这个处理过程需要&lt;div&gt;有标识他的解析几何类型,如果是解析&lt;/div&gt;&lt;div&gt;的类型，并且有轴，直接返回&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="991" y="5490" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n6H9abtczMPY-dAjAzDS-17" target="n6H9abtczMPY-dAjAzDS-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-17" value="VxSrfAxis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="5550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n6H9abtczMPY-dAjAzDS-19" target="n6H9abtczMPY-dAjAzDS-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-19" value="VxSrfIsCyl" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="5690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-21" value="只是对nurbs曲面进行阶数判断，一个一阶，一个二阶" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="5705" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n6H9abtczMPY-dAjAzDS-22" value="VxNrb2SrfPrim" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
