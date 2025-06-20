@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
-    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1p5-gOFzWiG01Fi2R5Ht-3" value="BrokenTopoSplitExtendedFace" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1070" width="140" height="60" as="geometry" />
+          <mxGeometry x="400" y="1070" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1p5-gOFzWiG01Fi2R5Ht-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-5" target="1p5-gOFzWiG01Fi2R5Ht-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -265,10 +265,10 @@
         <mxCell id="1p5-gOFzWiG01Fi2R5Ht-73" value="延申一个曲面的整体逻辑&lt;div&gt;1 输入一个曲面和一条边&lt;/div&gt;&lt;div&gt;2把边相邻的两个边首先进行延申&lt;/div&gt;&lt;div&gt;3延申选中的边，构造新的二维边&lt;/div&gt;&lt;div&gt;4基于新产生的二维边和前面的 后面的二维边进行拼接，借此改变了曲面的边界数据&lt;/div&gt;&lt;div&gt;（在这个过程中，原来是裁剪曲面可能就本身曲面并没有发生改变，也可能曲面发生了延申，如果是非裁剪曲面，对调用VxNrbModGeom 对底层曲面进行延伸类型的修改）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="2940" width="370" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="jlS0wueQrBHso_hHPWio-1" value="这里的输入已经是线了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jlS0wueQrBHso_hHPWio-1" value="这里的输入已经是线了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1495" y="2880" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jlS0wueQrBHso_hHPWio-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.819;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-52" target="1p5-gOFzWiG01Fi2R5Ht-52">
+        <mxCell id="jlS0wueQrBHso_hHPWio-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.819;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-52" target="1p5-gOFzWiG01Fi2R5Ht-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
