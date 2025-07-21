@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
-    <mxGraphModel dx="1363" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
           <mxGeometry x="270" y="805" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="noKRLqwYjJ5FsBkZodus-11" value="VxShellExtend" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="noKRLqwYjJ5FsBkZodus-12" value="VxFaceExtend" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="640" width="120" height="60" as="geometry" />
@@ -270,6 +270,12 @@
         </mxCell>
         <mxCell id="jlS0wueQrBHso_hHPWio-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.819;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1p5-gOFzWiG01Fi2R5Ht-52" target="1p5-gOFzWiG01Fi2R5Ht-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="05Ld_nAsT-1rzGu-FfCT-1" value="VxSphereExtend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="3815" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="05Ld_nAsT-1rzGu-FfCT-2" value="假设要延申的面已经被炸开了。&lt;div&gt;主要工作流 1延申球迷到整个，如果有需要的话 2获取所有选择边的曲线&lt;/div&gt;&lt;div&gt;3偏移选择的边，移除退化，自交的曲线&lt;/div&gt;&lt;div&gt;4延申或裁剪曲线组求交&lt;/div&gt;&lt;div&gt;5移除环&lt;/div&gt;&lt;div&gt;6用曲线组裁剪球体&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="3627" width="280" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

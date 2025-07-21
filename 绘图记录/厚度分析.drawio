@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-1" value="CdThkAnalzStart" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-2" value="厚度分析入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="320" y="228" width="100" height="30" as="geometry" />
+          <mxGeometry x="70" y="228" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aT8bgAMm1Phkdu1ahp4j-3" value="内核函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="535" y="238" width="70" height="30" as="geometry" />
+        <mxCell id="aT8bgAMm1Phkdu1ahp4j-3" value="内核函数：针对的是一个面&lt;div&gt;如果是多个面，for循环进行处理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="475" y="233" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aT8bgAMm1Phkdu1ahp4j-4" target="aT8bgAMm1Phkdu1ahp4j-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -31,101 +31,124 @@
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aT8bgAMm1Phkdu1ahp4j-8" target="aT8bgAMm1Phkdu1ahp4j-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aT8bgAMm1Phkdu1ahp4j-8" value="ThkAnalzBR" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aT8bgAMm1Phkdu1ahp4j-8" value="ThkAnalzBR：：computThk" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="430" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-10" value="实际分析厚度，是一个类，存储了&lt;div&gt;拓扑表与xref，基于uv点来计算厚度&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="440" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aT8bgAMm1Phkdu1ahp4j-11" target="oxWk2cqith01Cq_rCvkJ-2">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aT8bgAMm1Phkdu1ahp4j-11" target="oxWk2cqith01Cq_rCvkJ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aT8bgAMm1Phkdu1ahp4j-11" value="CdSrfThkAnalzBallRoll::solve" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="430" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-1" value="计算给定点内接圆的半径,点具有很多种类型，非&lt;div&gt;尖锐的边，在一个尖锐的边上，钝角，或者在一个尖锐的&lt;/div&gt;&lt;div&gt;边上锐角，如果边被0或者多余2个面共享，示威边+锐角，如果开放边，&lt;/div&gt;&lt;div&gt;示为非尖锐边&lt;/div&gt;&lt;div&gt;1直接在边上的 一律厚度为0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="830" y="325" width="400" height="90" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-1" value="计算给定点内接圆的半径,点具有很多种类型，非&lt;div&gt;尖锐的边，在一个尖锐的边上，钝角，或者在一个尖锐的&lt;/div&gt;&lt;div&gt;边上锐角，如果边被0或者多余2个面共享，示威边+锐角，如果开放边，&lt;/div&gt;&lt;div&gt;示为非尖锐边&lt;/div&gt;&lt;div&gt;1直接在边上的 一律厚度为0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="841" y="325" width="400" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-2" target="oxWk2cqith01Cq_rCvkJ-5">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-2" target="oxWk2cqith01Cq_rCvkJ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-2" value="PntCmnOpt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-2" value="CdSrfThkAnalzBallRoll：：PntCmnOpt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="430" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-4" value="优化一个公共点的逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="378" width="140" height="30" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-4" value="优化一个公共点的逻辑&lt;div&gt;在这个过程中去找这个点到其它面的最小&lt;/div&gt;&lt;div&gt;半径，for循环去找，也不需要遍历全部 后续的面如果&lt;/div&gt;&lt;div&gt;boundingbox距离超过当前最小半径了，就没必要遍历&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="258" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-5" target="oxWk2cqith01Cq_rCvkJ-8">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-5" target="oxWk2cqith01Cq_rCvkJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-5" value="SortedFcListByPnt2BndDist" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-5" value="SortedFcListByPnt2BndDist" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1450" y="430" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-7" value="通过点和各个面的&lt;div&gt;boundingbox之间的距离做一个排序。&lt;/div&gt;&lt;div&gt;排序从小到大&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-7" value="通过点和各个面的&lt;div&gt;boundingbox之间的距离做一个排序。&lt;/div&gt;&lt;div&gt;排序从小到大&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1400" y="363" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-8" target="oxWk2cqith01Cq_rCvkJ-10">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-8" target="oxWk2cqith01Cq_rCvkJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-8" value="如果当前的最小半径小于筛选出来的最小距离，那就可以直接不用算了，因为后面肯定是比他大的，不可能构成最小的内切球。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-8" value="如果当前的最小半径小于筛选出来的最小距离，那就可以直接不用算了，因为后面肯定是比他大的，不可能构成最小的内切球。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1450" y="570" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-10" target="oxWk2cqith01Cq_rCvkJ-13">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-10" target="oxWk2cqith01Cq_rCvkJ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-10" value="FindBstSampByPnts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-10" value="FindBstSampByPnts" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1480" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-12" value="在一系列采样点中保留虽好的初始点&lt;div&gt;确认其半径&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-12" value="在一系列采样点中保留虽好的初始点&lt;div&gt;确认其半径&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1241" y="715" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-13" target="oxWk2cqith01Cq_rCvkJ-16">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-13" target="oxWk2cqith01Cq_rCvkJ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-13" target="oxWk2cqith01Cq_rCvkJ-22">
+        <mxCell id="_6llvSVugQZKgMcLOzzU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-13" target="_6llvSVugQZKgMcLOzzU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-13" value="PntThkAnalz::Dof2::minimise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-13" value="PntThkAnalz::Dof2::minimise" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1445" y="878" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-15" value="如果找到了最小半径，基于这个&lt;div&gt;半径开始做优化，这个类的输入&lt;/div&gt;&lt;div&gt;是顶点，法向，曲面，曲面uv边界，&lt;/div&gt;&lt;div&gt;误差&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-15" value="如果找到了最小半径，基于这个&lt;div&gt;半径开始做优化，这个类的输入&lt;/div&gt;&lt;div&gt;是顶点，法向，曲面，曲面uv边界，&lt;/div&gt;&lt;div&gt;误差&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1210" y="868" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-16" target="oxWk2cqith01Cq_rCvkJ-18">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-16" target="oxWk2cqith01Cq_rCvkJ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-16" value="检查计算出来的结果，是否在曲面的裁剪范围内" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1445" y="1018" width="190" height="60" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-16" value="检查计算出来的结果，是否在曲面的裁剪范围内" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1445" y="1240" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-18" target="oxWk2cqith01Cq_rCvkJ-20">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-18" target="oxWk2cqith01Cq_rCvkJ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-18" value="如果解在裁剪边界的外部，那么我们需要在裁剪线上去找结果，但是我们也没有比较检查如果备选的面点半径比已经发现的最优的大，还是同样的逻辑，只是在边界上做优化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="1220" width="200" height="110" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-18" value="如果解在裁剪边界的外部，那么我们需要在裁剪线上去找结果，但是我们也没有比较检查如果备选的面点半径比已经发现的最优的大，还是同样的逻辑，只是在边界上做优化" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="1380" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-20" value="对于某个固定的点，计算出来的厚度就是最小半径" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="1435" width="120" height="60" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-20" value="对于某个固定的点，计算出来的厚度就是最小半径，这个当前最小半径应该是基于点来说的。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="1590" width="230" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-22" target="oxWk2cqith01Cq_rCvkJ-24">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-22" target="oxWk2cqith01Cq_rCvkJ-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxWk2cqith01Cq_rCvkJ-22" target="oxWk2cqith01Cq_rCvkJ-27">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oxWk2cqith01Cq_rCvkJ-22" target="oxWk2cqith01Cq_rCvkJ-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-22" value="RadOptObj::Dof2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-22" value="RadOptObj::Dof2" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1890" y="878" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-24" value="VxOptimMarch" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-24" value="VxOptimMarch" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1018" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-26" value="延着梯度下降的方式去迭代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-26" value="延着梯度下降的方式去迭代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1730" y="1033" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-27" value="SphereRad::Dof2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-27" value="SphereRad::Dof2" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2090" y="878" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxWk2cqith01Cq_rCvkJ-29" value="已知点p位置和法向，q的位置，求pq的内切圆，p法向过圆心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="828" width="340" height="30" as="geometry" />
+        <mxCell id="oxWk2cqith01Cq_rCvkJ-29" value="已知点p位置和法向，q的位置，求pq的内切圆，p法向过圆心&lt;div&gt;判断距离 如果判断向量平行，设置成无穷大，两个点重合设置为无穷大&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="823" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aNSUIMKmmiX07PX_70v_-1" value="一些问题记录&lt;div&gt;分析结果为大幅的的0，是什么原因，应该是如果厚度计算的值太大，那么就会把他置为0，可是为什么全部都被置为了0，难道所有的点都有问题？都采样有问题？&lt;/div&gt;&lt;div&gt;其实并不是所有点有问题，而是算出来了不该存在的最大值。38，其它的地方都是很小的，那其实就可以去看，是什么位置算出来了38&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="2020" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_6llvSVugQZKgMcLOzzU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-1" value="上一个函数找到最优的半径，如果最优的半径大于最小半径，直接更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-5" value="在这个过程中会出现无穷的情况。看一下为什么会出现无穷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1063" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_6llvSVugQZKgMcLOzzU-6" target="aT8bgAMm1Phkdu1ahp4j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-6" value="AnalzUptThkData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_6llvSVugQZKgMcLOzzU-8" value="对多个面进行厚度分析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="228" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
