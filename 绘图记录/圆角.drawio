@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="iBJ_GWcfPtX9u_OSnHqf">
-    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,63 @@
         </mxCell>
         <mxCell id="ZmWXUVFL1nFRZLdXcY8G-29" value="从参数域开始到结束对圆角面进行采样，仅仅反馈等参线在两边都触碰到轨道的地方" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1445" y="1840" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-3" target="tLt19Oa67q7G37nkq8Le-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-3" value="&lt;span style=&quot;text-align: left;&quot;&gt;VxAFlltChains&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-4" value="圆角的主要流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-5" target="tLt19Oa67q7G37nkq8Le-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-5" value="AFlltDTS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-7" value="Preform and divide/trim/sew&amp;nbsp;&lt;div&gt;operations required&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2770" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-8" target="tLt19Oa67q7G37nkq8Le-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-8" value="AFlltCCGetUniqueSupportShells" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2830" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-10" value="Classify CCs which are from the same support shell" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2790" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-11" target="tLt19Oa67q7G37nkq8Le-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-11" target="tLt19Oa67q7G37nkq8Le-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-11" value="AFlltAttachCCs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2970" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-13" value="ShlTreeMoveToShp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="3110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Move outter shell and CC shells into a new shape .&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;check whether the support shell is&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;a inner shell,if&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;so move its outer shell into a new shape together&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="3110" width="306.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-16" target="tLt19Oa67q7G37nkq8Le-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-16" value="AFlltDeleteRegions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLt19Oa67q7G37nkq8Le-18" target="tLt19Oa67q7G37nkq8Le-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-18" value="AFlltRebuildShells" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="2970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLt19Oa67q7G37nkq8Le-20" value="TopTabRegnMerg2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
