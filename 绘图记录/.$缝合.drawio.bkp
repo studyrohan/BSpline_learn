@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
+    <mxGraphModel dx="795" dy="-621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j1OsWh6CuMfBG_Sv2i0j-2" value="curve-mesh 非裁剪曲面构建流程&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="405" y="1698" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCRVlbtK0Dch7QhILaeM-1" target="iCRVlbtK0Dch7QhILaeM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-1" value="VxTTMeshProfSrf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCRVlbtK0Dch7QhILaeM-2" target="iCRVlbtK0Dch7QhILaeM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-2" value="MeshNProfPlanar" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-4" value="如果尝试构造平面就走这个流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1698" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCRVlbtK0Dch7QhILaeM-5" value="MeshNProf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1894" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

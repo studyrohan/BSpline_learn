@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="-1O_J7gIZjRPPeXsD_oY">
-    <mxGraphModel dx="1781" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -421,13 +421,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZtImn2mYXlgXaB_t8IYS-14" value="编译时大量找不到GEOM_CORE导出符号所修饰的函数导致链接错误" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="3242.5" width="150" height="45" as="geometry" />
+          <mxGeometry x="1490" y="3235" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ZtImn2mYXlgXaB_t8IYS-15" value="基于apiod 的单元测试模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1390" y="3170" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZtImn2mYXlgXaB_t8IYS-16" value="基于modeller 的单元测试模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="3330" width="90" height="30" as="geometry" />
+          <mxGeometry x="1390" y="3310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fPAziwFGXQKSX9c0B8e3-1" value="ZW3d(exe)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2210" y="1794" width="120" height="60" as="geometry" />
@@ -649,129 +649,6 @@
         </mxCell>
         <mxCell id="cH0PY47IT06zEuuq3nMq-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;shared(.dll)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="4490" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="3ftJnudaQrEBovCVJPm7-3" target="3ftJnudaQrEBovCVJPm7-9" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-3" value="ZwOverdrive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="4080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-5" value="ZwOverdriveCapi(dll)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="3940" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.496;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="3ftJnudaQrEBovCVJPm7-5" target="3ftJnudaQrEBovCVJPm7-3" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1220" y="4190" as="sourcePoint" />
-            <mxPoint x="1270" y="4140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-9" value="appl ,base,db,om," style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="4250" width="220" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-14" value="topo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="4300" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-15" value="Core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="4300" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-16" value="geomcore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="4300" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.483;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.479;entryY=-0.112;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="3ftJnudaQrEBovCVJPm7-16" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1198.98" y="4143" as="sourcePoint" />
-            <mxPoint x="960" y="4170" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1030" y="4180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.567;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.536;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3ftJnudaQrEBovCVJPm7-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1204.02" y="4140.99" as="sourcePoint" />
-            <mxPoint x="945.02" y="4293" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="951.02" y="4177" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.442;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.479;entryY=-0.112;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="3ftJnudaQrEBovCVJPm7-3" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1020" y="4150" as="sourcePoint" />
-            <mxPoint x="845" y="4303" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="851" y="4187" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.621;entryY=-0.137;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="3ftJnudaQrEBovCVJPm7-16" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1200" y="4000" as="sourcePoint" />
-            <mxPoint x="1070" y="4230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1070" y="4070" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.621;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3ftJnudaQrEBovCVJPm7-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1200" y="4000" as="sourcePoint" />
-            <mxPoint x="962" y="4289.51" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="999" y="4064.51" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.571;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3ftJnudaQrEBovCVJPm7-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1200" y="4000" as="sourcePoint" />
-            <mxPoint x="870" y="4290" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="907" y="4065" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;内核的头文件 编译依赖，都仅仅由ZwOverdriveCapi 所提供&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="3890" width="510" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-25" value="step/iges/z3n 导入导出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="4080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.508;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3ftJnudaQrEBovCVJPm7-5" target="3ftJnudaQrEBovCVJPm7-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1310" y="4180" as="sourcePoint" />
-            <mxPoint x="1360" y="4130" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1340" y="4040" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-27" value="sat导入导出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="4080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.475;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.588;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3ftJnudaQrEBovCVJPm7-5" target="3ftJnudaQrEBovCVJPm7-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1310" y="4180" as="sourcePoint" />
-            <mxPoint x="1360" y="4130" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1480" y="4030" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-29" value="ovdbuilder" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4640" width="60" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-30" value="sat文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="4570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-31" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;txt文件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="4760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-32" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;overdrive内核数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="4950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ftJnudaQrEBovCVJPm7-35" value="od导入" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4830" width="60" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
