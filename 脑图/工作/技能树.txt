@@ -1,0 +1,43 @@
+技能树
+	编程语言
+		C++
+			C with class
+			stl
+			C++ template
+			C++ concurrency
+		C
+		python
+		C#
+	前端能力
+		QT
+			网络编程
+			基础界面
+			渲染
+		imgui
+		.net
+	工作环境
+		windows
+		linux
+	渲染
+		opengl
+	逆向工程
+		windbg
+		ida
+	版本控制
+		git
+		hg
+	cad
+		parasolid
+		occt
+		zw3d
+			数据管理
+			事务管理
+			建模算法
+			渲染显示
+	计算几何
+	代码与项目管理
+		gitlab，github
+		jira
+	数据库
+		sqlite
+		MySQL

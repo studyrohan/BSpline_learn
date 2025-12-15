@@ -1,0 +1,57 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+    <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="CrvConCat" >
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="VxCrvConCat" POSITION="right">
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="准备数据" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="MKChainCrvList" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="VxCrvConcatPrim" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="VxNrbMkCrv" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="光滑化曲线" POSITION="right">
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="CrvConcatMatch" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="CrvConcatRmKnot" POSITION="right">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="组合使用" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="ReParmCurve01" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="VxSrfMkSompat" POSITION="left">
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="判断U方向还是v方向进行参数化，oruv一起" POSITION="left">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="ReparamSurfU01" POSITION="left">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="ReparamSurfV01" POSITION="left">
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="升阶" POSITION="left">
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="ElevateSfUDeg" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765768246109" ID="ID_c3a887d40817dd220007985753c45ec5" MODIFIED="1765768246109" TEXT="整合节向量" POSITION="left">
+    </node>
+
+    </node>
+
+    </node>
+
+</map>

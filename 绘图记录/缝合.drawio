@@ -1,122 +1,189 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
-    <mxGraphModel dx="954" dy="-512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="941" dy="-525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4AVvxd98GCU7t1419Sce-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-1" target="4AVvxd98GCU7t1419Sce-3">
+        <mxCell id="4AVvxd98GCU7t1419Sce-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-1" target="4AVvxd98GCU7t1419Sce-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-1" value="VxShlSew" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-1" value="VxShlSew" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-2" value="缝合主流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-2" value="缝合主流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="1448" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-3" target="4AVvxd98GCU7t1419Sce-5">
+        <mxCell id="4AVvxd98GCU7t1419Sce-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-3" target="4AVvxd98GCU7t1419Sce-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-3" value="VxShlSewUtil" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-3" value="VxShlSewUtil" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-5" target="4AVvxd98GCU7t1419Sce-8">
+        <mxCell id="4AVvxd98GCU7t1419Sce-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-5" target="4AVvxd98GCU7t1419Sce-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-5" value="VxShlSewSet" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-5" value="VxShlSewSet" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-7" value="缝合给定的列表到他自身" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-7" value="缝合给定的列表到他自身" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="1418" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-8" target="4AVvxd98GCU7t1419Sce-10">
+        <mxCell id="4AVvxd98GCU7t1419Sce-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-8" target="4AVvxd98GCU7t1419Sce-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-8" value="收集所有的输入shell" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-8" value="收集所有的输入shell" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-10" target="4AVvxd98GCU7t1419Sce-13">
+        <mxCell id="4AVvxd98GCU7t1419Sce-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-10" target="4AVvxd98GCU7t1419Sce-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-10" value="Sew_GetVtxLst" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-10" target="r9S0pG0Tj0o_8DprD2ZE-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AVvxd98GCU7t1419Sce-10" value="Sew_GetVtxLst" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-12" value="获取输入shell上的一系列顶点,检查&lt;div&gt;顶点连接的是否是开放边，如果是&lt;/div&gt;&lt;div&gt;开放的，才添加到输出列表中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-12" value="获取输入shell上的一系列顶点,检查&lt;div&gt;顶点连接的是否是开放边，如果是&lt;/div&gt;&lt;div&gt;开放的，才添加到输出列表中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="865" y="1603" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-13" target="4AVvxd98GCU7t1419Sce-17">
+        <mxCell id="4AVvxd98GCU7t1419Sce-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-13" target="4AVvxd98GCU7t1419Sce-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-13" value="VtxLstToBndVol" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-13" value="VtxLstToBndVol" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-15" value="Build a hierarchical bounding volume of&lt;div&gt;the vertexs，用顶点坐标构建空间&lt;span style=&quot;background-color: rgb(246, 246, 246); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 15px; text-align: start; text-wrap-mode: wrap;&quot;&gt;层次包围盒BVH&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(246, 246, 246); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 15px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-15" value="Build a hierarchical bounding volume of&lt;div&gt;the vertexs，用顶点坐标构建空间&lt;span style=&quot;background-color: rgb(246, 246, 246); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 15px; text-align: start; text-wrap-mode: wrap;&quot;&gt;层次包围盒BVH&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(246, 246, 246); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 15px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="795" y="1743" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-16" value="&lt;ul style=&quot;margin: 0.5rem 0px 1rem 1.25rem; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 15px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; list-style: disc; color: rgba(0, 0, 0, 0.9); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(246, 246, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;包围球（Sphere）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;：计算简单，旋转不变，但紧密性往往较差。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;轴对齐包围盒（AABB, Axis-Aligned Bounding Box）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;：边与坐标轴平行，相交测试简单，紧密性优于球体，但无法随物体旋转而旋转。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;方向包围盒（OBB, Oriented Bounding Box）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;: 可根据物体形状调整方向，紧密性更好，但相交测试相对复杂。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;k-DOP（Discrete Orientation Polytopes）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;: 是AABB的扩展，用一组平行平面对空间进行划分，紧密性更好&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-16" value="&lt;ul style=&quot;margin: 0.5rem 0px 1rem 1.25rem; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 15px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; list-style: disc; color: rgba(0, 0, 0, 0.9); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(246, 246, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;包围球（Sphere）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;：计算简单，旋转不变，但紧密性往往较差。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;轴对齐包围盒（AABB, Axis-Aligned Bounding Box）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;：边与坐标轴平行，相交测试简单，紧密性优于球体，但无法随物体旋转而旋转。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0.25rem 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;方向包围盒（OBB, Oriented Bounding Box）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;: 可根据物体形状调整方向，紧密性更好，但相交测试相对复杂。&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 0.25rem; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.9375rem; line-height: 1.6; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; box-sizing: border-box;&quot;&gt;​&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline;&quot;&gt;k-DOP（Discrete Orientation Polytopes）​&lt;/strong&gt;​&lt;div class=&quot;hyc-common-markdown__ref-list&quot; style=&quot;margin: 0px; padding: 0px 0.133929rem 0px 0.267857rem; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;; vertical-align: baseline; position: relative; top: 0.200893rem; display: inline-block; height: 1.07143rem; overflow: hidden;&quot;&gt;&lt;/div&gt;: 是AABB的扩展，用一组平行平面对空间进行划分，紧密性更好&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="1680" width="560" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-17" target="4AVvxd98GCU7t1419Sce-20">
+        <mxCell id="4AVvxd98GCU7t1419Sce-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-17" target="4AVvxd98GCU7t1419Sce-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-17" target="4AVvxd98GCU7t1419Sce-22">
+        <mxCell id="4AVvxd98GCU7t1419Sce-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-17" target="4AVvxd98GCU7t1419Sce-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-17" value="VxVtxMergeList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-17" value="VxVtxMergeList" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-19" value="如果要求顶点合并的话，对所有开放顶点&lt;div&gt;做合并操作&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1883" width="240" height="40" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-19" value="如果要求顶点合并的话，对所有开放顶点&lt;div&gt;做合并操作,做过了顶点合并之后。&lt;/div&gt;&lt;div&gt;边才能去合并，因为是通过边找顶点，然后处理&lt;/div&gt;&lt;div&gt;顶点的相邻边。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1870" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-20" value="利用BVH做顶点合并" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="1880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-22" target="4AVvxd98GCU7t1419Sce-25">
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-20" target="r9S0pG0Tj0o_8DprD2ZE-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-22" value="Sew_GetEdgLst" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-20" value="Loc_MergeWithTT" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AVvxd98GCU7t1419Sce-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-22" target="4AVvxd98GCU7t1419Sce-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AVvxd98GCU7t1419Sce-22" value="Sew_GetEdgLst" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-24" value="如果我们要去合并一系列的shell，收集与shell关联的&lt;div&gt;所有边，这些边会传递给后面的分裂合并函数&lt;/div&gt;&lt;div&gt;函数主要操作：遍历所有shell上的开发边，即半边数量小于等于1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="735" y="2013" width="370" height="60" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-24" value="如果我们要去合并一系列的shell，收集与shell关联的&lt;div&gt;所有边，这些边会传递给后面的分裂合并函数&lt;/div&gt;&lt;div&gt;函数主要操作：遍历所有shell上的开放边，即半边数量小于等于1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="710" y="2013" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-25" target="4AVvxd98GCU7t1419Sce-28">
+        <mxCell id="4AVvxd98GCU7t1419Sce-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-25" target="4AVvxd98GCU7t1419Sce-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-25" target="4AVvxd98GCU7t1419Sce-33">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="2410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-25" value="SewMergeEdgs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-25" value="SewMergeEdgs" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-27" value="合并所有一致的边" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-27" value="合并所有一致的边" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="940" y="2158" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-28" target="4AVvxd98GCU7t1419Sce-30">
+        <mxCell id="4AVvxd98GCU7t1419Sce-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-28" target="4AVvxd98GCU7t1419Sce-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-28" value="VxCoinEdgMerge2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-28" value="VxCoinEdgMerge2" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1280" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-30" value="SewShlMerge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-30" value="SewShlMerge" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1280" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-32" value="这里涉及到顶点的合并 边上preedge的设置，&lt;div&gt;最后处理边的合并&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="4AVvxd98GCU7t1419Sce-32" value="这里涉及到顶点的合并 边上preedge的设置，&lt;div&gt;最后处理边的合并&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1220" y="2113" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AVvxd98GCU7t1419Sce-33" target="4AVvxd98GCU7t1419Sce-36">
+        <mxCell id="4AVvxd98GCU7t1419Sce-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4AVvxd98GCU7t1419Sce-33" target="4AVvxd98GCU7t1419Sce-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-33" value="LOC_CatSpltOpnEdg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="2800" width="120" height="60" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-33" value="LOC_CatSpltOpnEdg" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="2907" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-35" value="拼接分裂的边如果他们仍然&lt;div&gt;是开放的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="875" y="2793" width="170" height="40" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-35" value="拼接分裂的边如果他们仍然&lt;div&gt;是开放的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="875" y="2900" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-36" value="VxShlSetClosdFlg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="2940" width="120" height="60" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-36" value="VxShlSetClosdFlg" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="3047" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4AVvxd98GCU7t1419Sce-38" value="通过判断shell中有没有开放的边&lt;div&gt;来设置shell的开放flag&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="895" y="2943" width="190" height="40" as="geometry" />
+        <mxCell id="4AVvxd98GCU7t1419Sce-38" value="通过判断shell中有没有开放的边&lt;div&gt;来设置shell的开放flag&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="895" y="3050" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Tj37iQI_pTmoEm1nY-Z-1" value="过程中进行shell的删除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="2318" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Tj37iQI_pTmoEm1nY-Z-2" value="VxVtxMerge" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-1" value="VldCkOpenVert" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-3" value="检查顶点是不是开放的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="1550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;利用BVH做顶点合并&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="1820" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-5" value="这个函数去找那些相对当前顶点应该合并的顶点&lt;div&gt;我们仅仅考虑那些属于开发边的顶点，合并之后不应该造成&lt;/div&gt;&lt;div&gt;合并的顶点属于两个或者多个loop&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1314" y="1754" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r9S0pG0Tj0o_8DprD2ZE-6" target="_Tj37iQI_pTmoEm1nY-Z-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9S0pG0Tj0o_8DprD2ZE-6" value="VxHierBndVolNxt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ss2DL8nAa6vsUcWR0noJ-2" target="ss2DL8nAa6vsUcWR0noJ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2t9KKhOz_01oKmEwJ47O-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ss2DL8nAa6vsUcWR0noJ-2" target="2t9KKhOz_01oKmEwJ47O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-2" value="VxCoinEdgSplit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-3" value="&lt;b&gt;边分裂&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="980" y="2425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ss2DL8nAa6vsUcWR0noJ-4" target="ss2DL8nAa6vsUcWR0noJ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-4" value="VxVtxMergeList" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-6" value="如果叫我们合并顶点&lt;div&gt;的话，合并顶点&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="935" y="2573" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ss2DL8nAa6vsUcWR0noJ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1145" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-7" value="SewMergeEdgs" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ss2DL8nAa6vsUcWR0noJ-9" value="再次检查一遍&lt;div&gt;看能不能做边的合并&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="925" y="2693" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2t9KKhOz_01oKmEwJ47O-1" value="VxEdgSplitAtTFix" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="2410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

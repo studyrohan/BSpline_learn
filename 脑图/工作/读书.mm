@@ -1,0 +1,159 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+    <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="读书" >
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="计算机" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="linux多线程服务器编程" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="C++" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="stl源码剖析" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="已读" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="C部分" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="C++沉思录" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="GPU" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="cuda入门" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="Opencl中文教程" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="渲染" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="WebGL编程指南" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="opengl learning" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="架构" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="Clean-Architecture-zh" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="人月神话" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="操作系统" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="深入理解计算机系统" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="程序员的自我修养" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="windows核心编程" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="python" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="python高级编程" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="网络" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="图解http" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="tcp/ip网络编程" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="计算机网络" POSITION="right">
+    </node>
+
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="建模算法" POSITION="left">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="计算几何" POSITION="left">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="计算几何-算法与应用" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="计算机辅助设计与非均匀有理b样条" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="自由曲线曲面造型技术" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="非均匀有理b样条" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="数学" POSITION="left">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="曲线曲面中的微分几何" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="邱维生 解析几何" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="基础拓扑学" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="occ教程" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="parasolid" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="思辨" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="传习录" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="综合" POSITION="left">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="小米创业思考" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="猫说—区块链投资笔记" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="手把手教你读财报" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="不知道读什么的时候" POSITION="right">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="occ推荐" POSITION="right">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="软件工程" POSITION="right">
+    </node>
+
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="管理" POSITION="left">
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="21世纪的管理挑战" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="忙总的管理日记" POSITION="left">
+    </node>
+
+            <node CREATED="1765767414835" ID="ID_e0fc210782a875d4fb39971c96a5ab41" MODIFIED="1765767414835" TEXT="格鲁夫给经理人的第一课" POSITION="left">
+    </node>
+
+    </node>
+
+    </node>
+
+</map>

@@ -1,0 +1,66 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+    <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="曲线操作" >
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="MkCvsCompat" POSITION="right">
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_MkCvsSameRatParamDeg" POSITION="right">
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="ConvCrvToRat" POSITION="right">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="ExtractSubCurve" POSITION="right">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="ReparmCurve" POSITION="right">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="ElevateCvDeg" POSITION="right">
+    </node>
+
+    </node>
+
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="offserCrvBrute" POSITION="left">
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="VxCrvGetCusps" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="CrvDiscretizeII" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_OffsetCrvPnts" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="loc_removeDuplicatePnts" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_SplitListAtCurvatureDiscont" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_FindCorners" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="loc_removeDuplicateKnots" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_CleanUpEndsOfLists" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_makeCrv" POSITION="left">
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_MakeCrvFromPoints" POSITION="left">
+    </node>
+
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="crvOffsetValid" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_SimplifyCurves" POSITION="left">
+    </node>
+
+            <node CREATED="1765768096647" ID="ID_635e07f359ac34809f166c021861221d" MODIFIED="1765768096647" TEXT="Loc_DeleteBowties" POSITION="left">
+    </node>
+
+    </node>
+
+    </node>
+
+</map>
