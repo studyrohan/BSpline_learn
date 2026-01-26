@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="YE1NN4_8z4oJuWLOnsad">
-    <mxGraphModel dx="1060" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,27 +33,6 @@
         </mxCell>
         <mxCell id="EQELBPl-XKp7DFPChkju-9" value="找到种子面，重构拓扑" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1290" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-11" target="EQELBPl-XKp7DFPChkju-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-11" value="BoolShapeIsect" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-12" target="EQELBPl-XKp7DFPChkju-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-12" value="VirginShlClsfy" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-14" target="EQELBPl-XKp7DFPChkju-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-14" value="BoolEdgeSplit" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="750" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EQELBPl-XKp7DFPChkju-16" value="CreateRegion" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="950" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQELBPl-XKp7DFPChkju-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-18" target="EQELBPl-XKp7DFPChkju-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -94,19 +73,19 @@
         <mxCell id="EQELBPl-XKp7DFPChkju-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-29" target="EQELBPl-XKp7DFPChkju-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQELBPl-XKp7DFPChkju-29" target="tfwplojtnBfA69J32MHx-4">
+        <mxCell id="tfwplojtnBfA69J32MHx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-29" target="tfwplojtnBfA69J32MHx-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQELBPl-XKp7DFPChkju-29" value="CreateRegions" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQELBPl-XKp7DFPChkju-31" target="tfwplojtnBfA69J32MHx-12">
+        <mxCell id="tfwplojtnBfA69J32MHx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-31" target="tfwplojtnBfA69J32MHx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQELBPl-XKp7DFPChkju-31" value="VxShapeMerge1" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQELBPl-XKp7DFPChkju-33" target="tfwplojtnBfA69J32MHx-20">
+        <mxCell id="tfwplojtnBfA69J32MHx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQELBPl-XKp7DFPChkju-33" target="tfwplojtnBfA69J32MHx-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQELBPl-XKp7DFPChkju-33" value="TotabRegnMerg" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -205,141 +184,141 @@
         <mxCell id="9hOCI96I2f73FcKbPGVK-31" value="在这个过程中，得到了很多的多段线，拼接在了一期" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3375" y="485" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-1" value="创建一个区域表指定拓扑表&amp;nbsp;&lt;div&gt;区域是由求交表划分的 部分的shell。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-1" value="创建一个区域表指定拓扑表&amp;nbsp;&lt;div&gt;区域是由求交表划分的 部分的shell。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="315" y="1260" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-4" target="tfwplojtnBfA69J32MHx-6">
+        <mxCell id="tfwplojtnBfA69J32MHx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-4" target="tfwplojtnBfA69J32MHx-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-4" value="SplitRegions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-4" value="SplitRegions" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-6" target="tfwplojtnBfA69J32MHx-8">
+        <mxCell id="tfwplojtnBfA69J32MHx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-6" target="tfwplojtnBfA69J32MHx-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-6" value="TopTabSpltBndry" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-6" value="TopTabSpltBndry" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="950" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-8" target="tfwplojtnBfA69J32MHx-10">
+        <mxCell id="tfwplojtnBfA69J32MHx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-8" target="tfwplojtnBfA69J32MHx-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-8" value="VxFaceSplitII" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-8" value="VxFaceSplitII" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-10" value="FaceRebuildLps" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-10" value="FaceRebuildLps" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1350" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-12" target="EQELBPl-XKp7DFPChkju-33">
+        <mxCell id="tfwplojtnBfA69J32MHx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-12" target="EQELBPl-XKp7DFPChkju-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-12" target="tfwplojtnBfA69J32MHx-16">
+        <mxCell id="tfwplojtnBfA69J32MHx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-12" target="tfwplojtnBfA69J32MHx-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-12" value="VxShpDivAtEmbed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-12" value="VxShpDivAtEmbed" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-15" value="Duplicate faces that&lt;div&gt;&amp;nbsp;are marked V_DIVIDE&lt;/div&gt;&lt;div&gt;Split shells where applicable.&lt;/div&gt;&lt;div&gt;返回一系列划分的shell的外环&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-15" value="Duplicate faces that&lt;div&gt;&amp;nbsp;are marked V_DIVIDE&lt;/div&gt;&lt;div&gt;Split shells where applicable.&lt;/div&gt;&lt;div&gt;返回一系列划分的shell的外环&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="365" y="1525" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-16" target="tfwplojtnBfA69J32MHx-18">
+        <mxCell id="tfwplojtnBfA69J32MHx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-16" target="tfwplojtnBfA69J32MHx-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-16" value="DivideEdge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-16" value="DivideEdge" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-18" value="DivideEdge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-18" value="DivideEdge" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="950" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-20" target="tfwplojtnBfA69J32MHx-28">
+        <mxCell id="tfwplojtnBfA69J32MHx-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-20" target="tfwplojtnBfA69J32MHx-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-20" value="TotabRegnMerg2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-20" value="TotabRegnMerg2" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-22" target="tfwplojtnBfA69J32MHx-24">
+        <mxCell id="tfwplojtnBfA69J32MHx-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-22" target="tfwplojtnBfA69J32MHx-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-22" value="Loc_SplitNonmanifoldEdges" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-22" value="Loc_SplitNonmanifoldEdges" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="925" y="1840" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-24" target="tfwplojtnBfA69J32MHx-26">
+        <mxCell id="tfwplojtnBfA69J32MHx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-24" target="tfwplojtnBfA69J32MHx-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-24" value="VxEdgUnshare" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-24" value="VxEdgUnshare" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-26" value="VxEdgMkOldVrts" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-26" value="VxEdgMkOldVrts" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-28" target="tfwplojtnBfA69J32MHx-22">
+        <mxCell id="tfwplojtnBfA69J32MHx-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tfwplojtnBfA69J32MHx-28" target="tfwplojtnBfA69J32MHx-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1010" y="1834" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-28" target="tfwplojtnBfA69J32MHx-32">
+        <mxCell id="tfwplojtnBfA69J32MHx-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-28" target="tfwplojtnBfA69J32MHx-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-28" value="ShlMkDistinct" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-28" value="ShlMkDistinct" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="950" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-32" value="MaximalFaceSearch" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-32" value="MaximalFaceSearch" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-36" value="重建shell" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1708" width="70" height="30" as="geometry" />
+        <mxCell id="tfwplojtnBfA69J32MHx-36" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;重建shell&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="405" y="1708" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="tfwplojtnBfA69J32MHx-38" target="tfwplojtnBfA69J32MHx-40" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-38" target="tfwplojtnBfA69J32MHx-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-38" value="ShlMkDistinct" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-38" value="ShlMkDistinct" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1967.44" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-40" target="tfwplojtnBfA69J32MHx-42">
+        <mxCell id="tfwplojtnBfA69J32MHx-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-40" target="tfwplojtnBfA69J32MHx-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-40" target="tfwplojtnBfA69J32MHx-46">
+        <mxCell id="tfwplojtnBfA69J32MHx-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-40" target="tfwplojtnBfA69J32MHx-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-40" value="MaximalFaceSearch" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-40" value="MaximalFaceSearch" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2167.44" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-42" target="tfwplojtnBfA69J32MHx-44">
+        <mxCell id="tfwplojtnBfA69J32MHx-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-42" target="tfwplojtnBfA69J32MHx-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-42" value="Loc_buildShell" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-42" value="Loc_buildShell" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2167.44" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-44" value="VsShellSplitBo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-44" value="VsShellSplitBo" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2367.44" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-46" value="OtherLoops" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-46" value="OtherLoops" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2367.44" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-48" value="在这个函数中利用了preedge对应edge的mod状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-48" value="在这个函数中利用了preedge对应edge的mod状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2275" y="1628" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-49" value="过程中有新的边的构造" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-49" value="过程中有新的边的构造" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1210" y="1800" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-52" target="tfwplojtnBfA69J32MHx-54">
+        <mxCell id="tfwplojtnBfA69J32MHx-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-52" target="tfwplojtnBfA69J32MHx-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-52" value="VxTopTabBoolMTSafe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-52" value="VxTopTabBoolMTSafe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-53" value="bug 点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-53" value="bug 点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="2248" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfwplojtnBfA69J32MHx-54" target="tfwplojtnBfA69J32MHx-56">
+        <mxCell id="tfwplojtnBfA69J32MHx-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tfwplojtnBfA69J32MHx-54" target="tfwplojtnBfA69J32MHx-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-54" value="TopTabBool" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-54" value="TopTabBool" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-56" value="VTtEdgConcat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-56" value="VTtEdgConcat" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="2450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfwplojtnBfA69J32MHx-58" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;如果可以的话就拼接这个边，这里就是了 这&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;里的状态影响了边的合并。属于是bool结束的后处理流程.拼接破损的边，在这个过程中，利用了edge的mod状态。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tfwplojtnBfA69J32MHx-58" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;如果可以的话就拼接这个边，这里就是了 这&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;里的状态影响了边的合并。属于是bool结束的后处理流程.拼接破损的边，在这个过程中，利用了edge的mod状态。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="495" y="2440" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
